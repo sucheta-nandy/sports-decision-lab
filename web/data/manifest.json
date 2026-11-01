@@ -1,0 +1,52 @@
+{
+  "generated_at_utc": "2026-10-31T03:07:03.118613+00:00",
+  "sources": [
+    {
+      "season": 2023,
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2023.csv.gz",
+      "sha256": "4649804ee0f0a40b41e51ec75a1ce921949d7fab5459213488656b92f78560e8",
+      "bytes": 19169807
+    },
+    {
+      "season": 2024,
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2024.csv.gz",
+      "sha256": "23370d5d10f8104d80d46a1fc5e61f4f6f5a3263fe96fe2dd629913cfcb08c06",
+      "bytes": 19362351
+    },
+    {
+      "season": 2025,
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+      "sha256": "2f135887790a013fd004e609e37096bb4816d5cc80b9f19122e1bad478961978",
+      "bytes": 19105296
+    }
+  ],
+  "audit": [
+    {
+      "season": 2023,
+      "raw_rows": 49665,
+      "eligible_rows": 32801,
+      "excluded_rows": 16864,
+      "games": 272,
+      "teams": 32
+    },
+    {
+      "season": 2024,
+      "raw_rows": 49492,
+      "eligible_rows": 32273,
+      "excluded_rows": 17219,
+      "games": 272,
+      "teams": 32
+    },
+    {
+      "season": 2025,
+      "raw_rows": 48771,
+      "eligible_rows": 31724,
+      "excluded_rows": 17047,
+      "games": 272,
+      "teams": 32
+    }
+  ],
+  "license": "CC BY 4.0",
+  "transform_version": 1,
+  "output_sha256": "4b1367722d0b586bbec3d833a362bdee00799c903c141a111ec5df79168464c8"
+}

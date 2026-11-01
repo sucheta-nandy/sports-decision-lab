@@ -1,0 +1,3806 @@
+{
+  "research": [
+    {
+      "teams": [
+        {
+          "league": "NFL",
+          "team": "Arizona Cardinals",
+          "career_url": "https://www.azcardinals.com/news/employment",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.azcardinals.com/news/employment",
+            "https://www.teamworkonline.com/football-jobs/arizona-cardinals-jobs/arizona-cardinals"
+          ],
+          "notes": "Official page routes to TeamWork; visible board and relevant engineering listing reviewed."
+        },
+        {
+          "league": "NFL",
+          "team": "Atlanta Falcons",
+          "career_url": "https://ambgroup.wd1.myworkdayjobs.com/AMBSE",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://ambgroup.wd1.myworkdayjobs.com/AMBSE"
+          ],
+          "notes": "NFL-designated Workday board returned an empty text body; vacancies could not be exhaustively reviewed."
+        },
+        {
+          "league": "NFL",
+          "team": "Baltimore Ravens",
+          "career_url": "https://www.baltimoreravens.com/employment",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.baltimoreravens.com/employment"
+          ],
+          "notes": "Official employment page reviewed; no matching data vacancy visible in extracted full-time/internship sections. Dynamic content may be omitted."
+        },
+        {
+          "league": "NFL",
+          "team": "Buffalo Bills",
+          "career_url": "https://www.buffalobills.com/about-us/career-opportunities",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.buffalobills.com/about-us/career-opportunities",
+            "https://recruiting.ultipro.com/HOC10001BFLO/JobBoard/fe63f75a-e850-45d2-8772-63a210927fdc/"
+          ],
+          "notes": "Official careers page reviewed; UKG board displayed unsupported-browser message."
+        },
+        {
+          "league": "NFL",
+          "team": "Carolina Panthers",
+          "career_url": "https://www.panthers.com/about-us/employment",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.panthers.com/about-us/employment",
+            "https://jobs.dayforcehcm.com/en-US/cp87/CANDIDATEPORTAL/jobs/5978"
+          ],
+          "notes": "Official page displays Manager - Data Engineering & Operations twice pointing to same Dayforce requisition; deduplicated. Job body unavailable through ATS extraction."
+        },
+        {
+          "league": "NFL",
+          "team": "Chicago Bears",
+          "career_url": "https://www.chicagobears.com/about/employment-opportunities",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.chicagobears.com/about/employment-opportunities",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?ccId=19000101_000001&cid=0103272e-a631-4293-97b2-7da68f74bc1f&lang=en_US&type=MP"
+          ],
+          "notes": "Official page reviewed; designated ADP board displayed unsupported-browser message."
+        },
+        {
+          "league": "NFL",
+          "team": "Cincinnati Bengals",
+          "career_url": "https://www.teamworkonline.com/football-jobs/footballjobs/cincinnati-bengals",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.teamworkonline.com/football-jobs/footballjobs/cincinnati-bengals"
+          ],
+          "notes": "NFL-designated board reviewed; no matching vacancy visible."
+        },
+        {
+          "league": "NFL",
+          "team": "Cleveland Browns",
+          "career_url": "https://www.clevelandbrowns.com/about/employment-opportunities",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.clevelandbrowns.com/about/employment-opportunities",
+            "https://clevelandbrowns.isolvedhire.com/jobs/"
+          ],
+          "notes": "Official page and isolved job list reviewed; current list exposed no vacancies."
+        },
+        {
+          "league": "NFL",
+          "team": "Dallas Cowboys",
+          "career_url": "https://www.dallascowboys.com/career-opportunities",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.dallascowboys.com/career-opportunities",
+            "https://dayforcehcm.com/CandidatePortal/en-US/jonesentities/SITE/DALLASCOWBOYSFOOTBALLCLUB"
+          ],
+          "notes": "Official page reviewed; Dayforce destination inaccessible through research tool."
+        },
+        {
+          "league": "NFL",
+          "team": "Denver Broncos",
+          "career_url": "https://www.denverbroncos.com/employment/",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.denverbroncos.com/employment/",
+            "https://job-boards.greenhouse.io/denverbroncosteamllc"
+          ],
+          "notes": "Official page and Greenhouse reviewed; only dishwasher opening visible; no matching data vacancy."
+        },
+        {
+          "league": "NFL",
+          "team": "Detroit Lions",
+          "career_url": "https://www.detroitlions.com/about-us/careers",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.detroitlions.com/about-us/careers",
+            "https://job-boards.greenhouse.io/detroitlions"
+          ],
+          "notes": "Official page and Greenhouse reviewed; four jobs visible, none matching analyst/data scientist/data engineer scope."
+        },
+        {
+          "league": "NFL",
+          "team": "Green Bay Packers",
+          "career_url": "https://www.packers.com/lambeau-field/employment",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.packers.com/lambeau-field/employment",
+            "https://jobs.dayforcehcm.com/en-US/greenbaypackers/CANDIDATEPORTAL"
+          ],
+          "notes": "Official page reviewed; Dayforce board failed to fetch."
+        },
+        {
+          "league": "NFL",
+          "team": "Houston Texans",
+          "career_url": "https://www.teamworkonline.com/football-jobs/texans/houston-texans",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.teamworkonline.com/football-jobs/texans/houston-texans"
+          ],
+          "notes": "NFL-designated TeamWork board reviewed; no matching data vacancy visible."
+        },
+        {
+          "league": "NFL",
+          "team": "Indianapolis Colts",
+          "career_url": "https://www.teamworkonline.com/football-jobs/indianapolis-colts-jobs/indianapolis-colts",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.teamworkonline.com/football-jobs/indianapolis-colts-jobs/indianapolis-colts"
+          ],
+          "notes": "NFL-designated TeamWork board and Data Engineer description reviewed."
+        },
+        {
+          "league": "NFL",
+          "team": "Jacksonville Jaguars",
+          "career_url": "https://www.jaguars.com/careers",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.jaguars.com/careers",
+            "https://www.teamworkonline.com/football-jobs/footballjobs/nfl-football-jobs?employment_opportunity_search%5Borganization_id%5D=28261"
+          ],
+          "notes": "Official careers page and designated filtered TeamWork board reviewed; only sales executive visible."
+        },
+        {
+          "league": "NFL",
+          "team": "Kansas City Chiefs",
+          "career_url": "https://www.teamworkonline.com/football-jobs/chiefs/kansas-city-chiefs-29577",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.teamworkonline.com/football-jobs/chiefs/kansas-city-chiefs-29577"
+          ],
+          "notes": "NFL-designated board reviewed; no matching data vacancy visible."
+        },
+        {
+          "league": "NFL",
+          "team": "Las Vegas Raiders",
+          "career_url": "https://www.raiders.com/about/employment-opportunities",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.raiders.com/about/employment-opportunities",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?ccId=19000101_000001&cid=58d2d945-3a8e-4bea-81f1-e18a4a93c137&lang=en_US&type=MP"
+          ],
+          "notes": "Official page reviewed; ADP board returned unsupported-browser message."
+        },
+        {
+          "league": "NFL",
+          "team": "Los Angeles Chargers",
+          "career_url": "https://www.chargers.com/contact-us/careers",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.chargers.com/contact-us/careers",
+            "https://www.teamworkonline.com/football-jobs/los-angeles-chargers-jobs/los-angeles-chargers"
+          ],
+          "notes": "Official page and TeamWork board reviewed; no matching data vacancy visible."
+        },
+        {
+          "league": "NFL",
+          "team": "Los Angeles Rams",
+          "career_url": "https://sites.teamworkonline.com/los-angeles-rams/",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://sites.teamworkonline.com/los-angeles-rams/",
+            "https://www.teamworkonline.com/football-jobs/la-rams-careers/los-angeles-rams"
+          ],
+          "notes": "NFL-designated branded careers and TeamWork board reviewed; senior marketing analytics role verified."
+        },
+        {
+          "league": "NFL",
+          "team": "Miami Dolphins",
+          "career_url": "https://www.teamworkonline.com/football-jobs/miami-dolphins-jobs/miami-dolphins",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.teamworkonline.com/football-jobs/miami-dolphins-jobs/miami-dolphins"
+          ],
+          "notes": "NFL-designated TeamWork board reviewed; no data-title vacancy found in extracted board."
+        },
+        {
+          "league": "NFL",
+          "team": "Minnesota Vikings",
+          "career_url": "https://www.teamworkonline.com/football-jobs/minnesota-vikings-jobs/vikings",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.teamworkonline.com/football-jobs/minnesota-vikings-jobs/vikings"
+          ],
+          "notes": "NFL directory destination returned 404. No substitute employer board verified; no absence-of-jobs claim."
+        },
+        {
+          "league": "NFL",
+          "team": "New England Patriots",
+          "career_url": "https://www.thekraftgroup.com/careers/",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.thekraftgroup.com/careers/",
+            "https://www.paycomonline.net/v4/ats/web.php/portal/E5610D2EE813CB667DFB4474CE51F738/career-page"
+          ],
+          "notes": "NFL-designated parent careers page reviewed; New England Patriots filtered Paycom board required JavaScript."
+        },
+        {
+          "league": "NFL",
+          "team": "New Orleans Saints",
+          "career_url": "https://www.neworleanssaints.com/team/careers/",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.neworleanssaints.com/team/careers/",
+            "https://dayforcehcm.com/CandidatePortal/en-US/bensonenterprises/SITE/SAINTSPELSCAREERS"
+          ],
+          "notes": "Official careers page reviewed; joint Saints/Pelicans Dayforce board inaccessible."
+        },
+        {
+          "league": "NFL",
+          "team": "New York Giants",
+          "career_url": "https://www.metlifestadium.com/connect/employment/nfl-teams/",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.metlifestadium.com/connect/employment/nfl-teams/"
+          ],
+          "notes": "NFL directory routes to MetLife Stadium employment. Stadium NFL team routing page accessed, but current Giants vacancy board not resolved; stadium jobs not mislabeled Giants jobs."
+        },
+        {
+          "league": "NFL",
+          "team": "New York Jets",
+          "career_url": "https://www.newyorkjets.com/careers/",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.newyorkjets.com/careers/",
+            "https://www.teamworkonline.com/football-jobs/footballjobs/nfl-football-jobs?employment_opportunity_search%5Borganization_id%5D=28617"
+          ],
+          "notes": "Official page and designated TeamWork filtered board reviewed; no matching data vacancy captured."
+        },
+        {
+          "league": "NFL",
+          "team": "Philadelphia Eagles",
+          "career_url": "https://www.philadelphiaeagles.com/careers/employment-opportunities",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.philadelphiaeagles.com/careers/employment-opportunities",
+            "https://job-boards.greenhouse.io/philadelphiaeagles"
+          ],
+          "notes": "Official page and Greenhouse board reviewed; no matching data vacancy captured."
+        },
+        {
+          "league": "NFL",
+          "team": "Pittsburgh Steelers",
+          "career_url": "https://www.teamworkonline.com/football-jobs/footballjobs/pittsburgh-steelers-",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.teamworkonline.com/football-jobs/footballjobs/pittsburgh-steelers-"
+          ],
+          "notes": "NFL-designated board reviewed; visible roles outside requested data titles."
+        },
+        {
+          "league": "NFL",
+          "team": "San Francisco 49ers",
+          "career_url": "https://www.49ers.com/employment/",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.49ers.com/employment/"
+          ],
+          "notes": "NFL directory legacy TeamWork URL failed; current official employment page and linked SuccessFactors analyst requisition reviewed."
+        },
+        {
+          "league": "NFL",
+          "team": "Seattle Seahawks",
+          "career_url": "https://www.seahawks.com/about/employment/",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.seahawks.com/about/employment/",
+            "https://www2.seahawks.com/employment/openings/"
+          ],
+          "notes": "Official page reviewed; openings endpoint produced no usable current job list."
+        },
+        {
+          "league": "NFL",
+          "team": "Tampa Bay Buccaneers",
+          "career_url": "https://www.buccaneers.com/team/careers",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.buccaneers.com/team/careers"
+          ],
+          "notes": "Official careers page accessed, but extracted page contained category images without usable vacancy list or application links."
+        },
+        {
+          "league": "NFL",
+          "team": "Tennessee Titans",
+          "career_url": "https://www.tennesseetitans.com/about-us/employment",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.tennesseetitans.com/about-us/employment",
+            "https://us59.dayforcehcm.com/CandidatePortal/en-US/titans"
+          ],
+          "notes": "Official page reviewed; Dayforce destination inaccessible."
+        },
+        {
+          "league": "NFL",
+          "team": "Washington Commanders",
+          "career_url": "https://www.teamworkonline.com/football-jobs/washington-commanders-jobs/washington-commanders-jobs",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.teamworkonline.com/football-jobs/washington-commanders-jobs/washington-commanders-jobs"
+          ],
+          "notes": "NFL-designated TeamWork board reviewed; no matching analyst vacancy captured."
+        },
+        {
+          "league": "MLB",
+          "team": "Arizona Diamondbacks",
+          "career_url": "https://www.mlb.com/dbacks/team/job-opportunities",
+          "ats_url": "https://jobs.dayforcehcm.com/en-US/dbacks/CANDIDATEPORTAL",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.mlb.com/dbacks/team/job-opportunities",
+            "https://jobs.dayforcehcm.com/en-US/dbacks/CANDIDATEPORTAL"
+          ],
+          "notes": "Official page reviewed; Dayforce shell exposed search controls without job results."
+        },
+        {
+          "league": "MLB",
+          "team": "Athletics",
+          "career_url": "https://www.mlb.com/athletics/team/jobs",
+          "ats_url": "https://job-boards.greenhouse.io/athleticsbaseballops",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.mlb.com/athletics/team/jobs",
+            "https://job-boards.greenhouse.io/athleticsbaseballops"
+          ],
+          "notes": "Official page and both Greenhouse boards reviewed; Senior Data Architect verified."
+        },
+        {
+          "league": "MLB",
+          "team": "Atlanta Braves",
+          "career_url": "https://www.mlb.com/braves/team/jobs",
+          "ats_url": "https://atlantabravesmlb.wd5.myworkdayjobs.com/AtlantaBraves",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.mlb.com/braves/team/jobs",
+            "https://atlantabravesmlb.wd5.myworkdayjobs.com/AtlantaBraves"
+          ],
+          "notes": "Official page reviewed; Workday board returned no text vacancies."
+        },
+        {
+          "league": "MLB",
+          "team": "Baltimore Orioles",
+          "career_url": "https://www.mlb.com/orioles/team/job-opportunities",
+          "ats_url": "https://www.teamworkonline.com/baseball-jobs/orioles-jobs/baltimore-orioles-jobs",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.mlb.com/orioles/team/job-opportunities",
+            "https://www.teamworkonline.com/baseball-jobs/orioles-jobs/baltimore-orioles-jobs"
+          ],
+          "notes": "Official page and TeamWork board reviewed; three matching analytics/fellow roles verified."
+        },
+        {
+          "league": "MLB",
+          "team": "Boston Red Sox",
+          "career_url": "https://www.mlb.com/redsox/team/jobs",
+          "ats_url": "https://jobs.lever.co/redsox",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.mlb.com/redsox/team/jobs",
+            "https://jobs.lever.co/redsox"
+          ],
+          "notes": "Official page and Lever board reviewed; hitting analyst/coach hybrid role verified."
+        },
+        {
+          "league": "MLB",
+          "team": "Chicago Cubs",
+          "career_url": "https://www.mlb.com/cubs/team/jobs",
+          "ats_url": "https://my1060wd.wd5.myworkdayjobs.com/Chicago_Cubs_FO",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.mlb.com/cubs/team/jobs",
+            "https://my1060wd.wd5.myworkdayjobs.com/Chicago_Cubs_FO"
+          ],
+          "notes": "Official page reviewed; front-office Workday returned empty text response."
+        },
+        {
+          "league": "MLB",
+          "team": "Chicago White Sox",
+          "career_url": "https://www.mlb.com/whitesox/team/job-opportunities",
+          "ats_url": "https://recruiting2.ultipro.com/CHI1000CWS/JobBoard/8e2339b4-b699-46e9-8b91-e3e826e53794/",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.mlb.com/whitesox/team/job-opportunities",
+            "https://recruiting2.ultipro.com/CHI1000CWS/JobBoard/8e2339b4-b699-46e9-8b91-e3e826e53794/"
+          ],
+          "notes": "Official page reviewed; UKG board displayed unsupported-browser message."
+        },
+        {
+          "league": "MLB",
+          "team": "Cincinnati Reds",
+          "career_url": "https://www.mlb.com/reds/team/job-opportunities",
+          "ats_url": "https://recruitingbypaycor.com/career/CareerHome.action?clientId=8a7883d07c5da337017c9998a2cb1623",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.mlb.com/reds/team/job-opportunities",
+            "https://recruitingbypaycor.com/career/CareerHome.action?clientId=8a7883d07c5da337017c9998a2cb1623"
+          ],
+          "notes": "Official page and Paycor board reviewed; visible openings had no matching data analyst/scientist/engineer title."
+        },
+        {
+          "league": "MLB",
+          "team": "Cleveland Guardians",
+          "career_url": "https://www.mlb.com/guardians/official-information/job-opportunities",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.mlb.com/guardians/official-information/job-opportunities"
+          ],
+          "notes": "Official page exposed business/baseball opportunity headings but no usable vacancy feed."
+        },
+        {
+          "league": "MLB",
+          "team": "Colorado Rockies",
+          "career_url": "https://www.mlb.com/rockies/team/job-opportunities",
+          "ats_url": "https://www.teamworkonline.com/baseball-jobs/colorado-rockies/colorado-rockies-jobs",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.mlb.com/rockies/team/job-opportunities",
+            "https://www.teamworkonline.com/baseball-jobs/colorado-rockies/colorado-rockies-jobs"
+          ],
+          "notes": "Official page reviewed; UKG full list blocked, but employer TeamWork analytics Fellow and senior forecasting descriptions verified separately."
+        },
+        {
+          "league": "MLB",
+          "team": "Detroit Tigers",
+          "career_url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?LinkID=933207&PageType=searchResults&SearchType=linkquery&partnerid=26290&siteid=6894",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?LinkID=933207&PageType=searchResults&SearchType=linkquery&partnerid=26290&siteid=6894"
+          ],
+          "notes": "MLB-designated BrassRing route failed with internal server error."
+        },
+        {
+          "league": "MLB",
+          "team": "Houston Astros",
+          "career_url": "https://www.mlb.com/astros/team/jobs",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.mlb.com/astros/team/jobs"
+          ],
+          "notes": "Official page reviewed; linked TeamWork URL returned 404. UKG route identified but full vacancies not reviewed."
+        },
+        {
+          "league": "MLB",
+          "team": "Kansas City Royals",
+          "career_url": "https://www.mlb.com/royals/team/jobs",
+          "ats_url": "https://www.teamworkonline.com/baseball-jobs/kansas-city-royals-jobs/kansas-city-royals",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.mlb.com/royals/team/jobs",
+            "https://www.teamworkonline.com/baseball-jobs/kansas-city-royals-jobs/kansas-city-royals"
+          ],
+          "notes": "Official page and TeamWork board reviewed; two R&D analyst vacancies verified."
+        },
+        {
+          "league": "MLB",
+          "team": "Los Angeles Angels",
+          "career_url": "https://www.mlb.com/angels/team/jobs",
+          "ats_url": "https://www.teamworkonline.com/baseball-jobs/los-angeles-angels-jobs/los-angeles-angels",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.mlb.com/angels/team/jobs",
+            "https://www.teamworkonline.com/baseball-jobs/los-angeles-angels-jobs/los-angeles-angels"
+          ],
+          "notes": "Official page and TeamWork board reviewed; no analyst-title vacancy found in visible board."
+        },
+        {
+          "league": "MLB",
+          "team": "Los Angeles Dodgers",
+          "career_url": "https://www.mlb.com/dodgers/team/jobs",
+          "ats_url": "https://www.teamworkonline.com/baseball-jobs/los-angeles-dodgers-jobs/los-angeles-dodgers",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.mlb.com/dodgers/team/jobs",
+            "https://www.teamworkonline.com/baseball-jobs/los-angeles-dodgers-jobs/los-angeles-dodgers"
+          ],
+          "notes": "Official page and TeamWork board reviewed; Summer Analyst and International Baseball Strategy analyst verified."
+        },
+        {
+          "league": "MLB",
+          "team": "Miami Marlins",
+          "career_url": "https://www.mlb.com/marlins/team/jobs",
+          "ats_url": "https://www.teamworkonline.com/baseball-jobs/miamibaseball/miami-marlins",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.mlb.com/marlins/team/jobs",
+            "https://www.teamworkonline.com/baseball-jobs/miamibaseball/miami-marlins"
+          ],
+          "notes": "Official page and TeamWork board reviewed; PD Solutions Analyst Fellowship verified."
+        },
+        {
+          "league": "MLB",
+          "team": "Milwaukee Brewers",
+          "career_url": "https://www.mlb.com/brewers/team/jobs",
+          "ats_url": "https://www.teamworkonline.com/baseball-jobs/milwaukeebaseball/milwaukee-brewers",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.mlb.com/brewers/team/jobs",
+            "https://www.teamworkonline.com/baseball-jobs/milwaukeebaseball/milwaukee-brewers"
+          ],
+          "notes": "Official page, branded careers page and TeamWork board reviewed; no requested analyst/scientist/engineer vacancy captured. Software and scouting associate roles outside strict title scope."
+        },
+        {
+          "league": "MLB",
+          "team": "Minnesota Twins",
+          "career_url": "https://recruiting.adp.com/srccar/public/RTI.home?c=1080741&d=External",
+          "ats_url": "https://www.teamworkonline.com/baseball-jobs/minnesota-twins/minnesota-twins-jobs",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://recruiting.adp.com/srccar/public/RTI.home?c=1080741&d=External",
+            "https://www.teamworkonline.com/baseball-jobs/minnesota-twins/minnesota-twins-jobs"
+          ],
+          "notes": "MLB-designated ADP route returned error page; Senior Analyst Baseball Research verified on employer TeamWork listing separately."
+        },
+        {
+          "league": "MLB",
+          "team": "New York Mets",
+          "career_url": "https://www.mlb.com/mets/team/jobs",
+          "ats_url": "https://sterlingmets.wd5.myworkdayjobs.com/Mets",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.mlb.com/mets/team/jobs",
+            "https://sterlingmets.wd5.myworkdayjobs.com/Mets"
+          ],
+          "notes": "Official page reviewed; Workday board returned empty text response."
+        },
+        {
+          "league": "MLB",
+          "team": "New York Yankees",
+          "career_url": "https://www.mlb.com/yankees/team/jobs",
+          "ats_url": "https://www.teamworkonline.com/baseball-jobs/new-york-yankees/new-york-yankees",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.mlb.com/yankees/team/jobs",
+            "https://www.teamworkonline.com/baseball-jobs/new-york-yankees/new-york-yankees"
+          ],
+          "notes": "Official page and designated TeamWork filtered board reviewed; Advance Scouting Analyst verified."
+        },
+        {
+          "league": "MLB",
+          "team": "Philadelphia Phillies",
+          "career_url": "https://www.mlb.com/phillies/team/jobs",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.mlb.com/phillies/team/jobs"
+          ],
+          "notes": "Official page accessed but no current vacancy feed surfaced. Search-index results noted separately; no live role claimed."
+        },
+        {
+          "league": "MLB",
+          "team": "Pittsburgh Pirates",
+          "career_url": "https://www.mlb.com/pirates/team/jobs",
+          "ats_url": "https://www.teamworkonline.com/baseball-jobs/pittsburghpirates/pittsburgh-pirates-jobs",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.mlb.com/pirates/team/jobs",
+            "https://www.teamworkonline.com/baseball-jobs/pittsburghpirates/pittsburgh-pirates-jobs"
+          ],
+          "notes": "Official page reviewed; UKG blocked, but employer TeamWork Baseball Strategy Analyst description verified separately."
+        },
+        {
+          "league": "MLB",
+          "team": "San Diego Padres",
+          "career_url": "https://careers.hireology.com/sandiegopadres",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://careers.hireology.com/sandiegopadres"
+          ],
+          "notes": "MLB-designated Hireology route returned empty text response."
+        },
+        {
+          "league": "MLB",
+          "team": "San Francisco Giants",
+          "career_url": "https://www.mlb.com/giants/team/jobs",
+          "ats_url": "https://jobs.lever.co/sfgiants",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.mlb.com/giants/team/jobs",
+            "https://jobs.lever.co/sfgiants"
+          ],
+          "notes": "Official page and Lever reviewed; Pitching Analysis Coordinator role inspected as adjacent analytics."
+        },
+        {
+          "league": "MLB",
+          "team": "Seattle Mariners",
+          "career_url": "https://www.mlb.com/mariners/team/job-opportunities",
+          "ats_url": "https://mariners.wd5.myworkdayjobs.com/Mariners",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.mlb.com/mariners/team/job-opportunities",
+            "https://mariners.wd5.myworkdayjobs.com/Mariners"
+          ],
+          "notes": "Official page reviewed; Workday vacancy list returned no text."
+        },
+        {
+          "league": "MLB",
+          "team": "St. Louis Cardinals",
+          "career_url": "https://stlcardinals.aaimtrack.com/jobs/",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://stlcardinals.aaimtrack.com/jobs/"
+          ],
+          "notes": "MLB-designated AAIM board exposed headings without usable vacancy list; cannot assert no openings."
+        },
+        {
+          "league": "MLB",
+          "team": "Tampa Bay Rays",
+          "career_url": "https://www.mlb.com/rays/team/jobs",
+          "ats_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?ccId=19000101_000001&cid=d4e6b608-831f-4a04-bdb6-f61493552d27&lang=en_US",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.mlb.com/rays/team/jobs",
+            "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?ccId=19000101_000001&cid=d4e6b608-831f-4a04-bdb6-f61493552d27&lang=en_US"
+          ],
+          "notes": "Official page reviewed; ADP board displayed unsupported-browser message."
+        },
+        {
+          "league": "MLB",
+          "team": "Texas Rangers",
+          "career_url": "https://www.mlb.com/rangers/team/jobs",
+          "ats_url": null,
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": [
+            "https://www.mlb.com/rangers/team/jobs"
+          ],
+          "notes": "Official page accessed; extracted page omitted current openings feed."
+        },
+        {
+          "league": "MLB",
+          "team": "Toronto Blue Jays",
+          "career_url": "https://www.mlb.com/bluejays/team/job-postings",
+          "ats_url": "https://www.teamworkonline.com/baseball-jobs/toronto-blue-jays-jobs/toronto-blue-jays",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://www.mlb.com/bluejays/team/job-postings",
+            "https://www.teamworkonline.com/baseball-jobs/toronto-blue-jays-jobs/toronto-blue-jays"
+          ],
+          "notes": "Official page said check back later; research specialist and data scientist listings verified separately on employer TeamWork board."
+        },
+        {
+          "league": "MLB",
+          "team": "Washington Nationals",
+          "career_url": "https://recruiting.ultipro.com/MON1001/JobBoard/0ed4fc6a-fdb9-2188-7d7e-c0ace225afcf/",
+          "ats_url": "https://www.teamworkonline.com/baseball-jobs/washington-nationals/washington-nationals",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": [
+            "https://recruiting.ultipro.com/MON1001/JobBoard/0ed4fc6a-fdb9-2188-7d7e-c0ace225afcf/",
+            "https://www.teamworkonline.com/baseball-jobs/washington-nationals/washington-nationals"
+          ],
+          "notes": "MLB-designated UKG board blocked; Junior Analyst Player Projections verified separately on employer TeamWork listing."
+        }
+      ],
+      "jobs": [
+        {
+          "id": "nfl-1",
+          "league": "NFL",
+          "team": "Arizona Cardinals",
+          "title": "AI and Data Platform Engineer",
+          "location": "Tempe, AZ; planned north Phoenix relocation in 2028",
+          "url": "https://www.teamworkonline.com/football-jobs/arizona-cardinals-jobs/arizona-cardinals/ai-and-data-platform-engineer-2194920",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "data_engineering",
+          "seniority": "mid",
+          "requirements": "Technical bachelor's degree and 2–5 years in databases, systems, cloud or related work; supports enterprise AI, pipelines, platforms and governance.",
+          "skills": [
+            "SQL Server",
+            "ETL/ELT",
+            "APIs",
+            "Azure",
+            "AWS",
+            "Databricks",
+            "Microsoft Fabric",
+            "data modeling",
+            "data governance",
+            "AI integration"
+          ],
+          "salary": null,
+          "notes": "Onsite; posting says no visa sponsorship or assumption of existing sponsorship, including OPT/CPT.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "nfl-2",
+          "league": "NFL",
+          "team": "Indianapolis Colts",
+          "title": "Data Engineer",
+          "location": "Indianapolis, IN (onsite)",
+          "url": "https://www.teamworkonline.com/football-jobs/indianapolis-colts-jobs/indianapolis-colts/data-engineer-2196552",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "data_engineering",
+          "seniority": "mid",
+          "requirements": "Related bachelor's degree or equivalent and 2–4 years building production pipelines; warehouse design, data validation, modeled datasets, governance and stakeholder collaboration.",
+          "skills": [
+            "SQL",
+            "Python",
+            "Snowflake",
+            "ETL/ELT",
+            "Airflow",
+            "dbt",
+            "Azure",
+            "APIs",
+            "GitHub",
+            "CI/CD",
+            "Power BI"
+          ],
+          "salary": null,
+          "notes": "Supports commercial operations including ticketing, sales, marketing and fan engagement.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "nfl-3",
+          "league": "NFL",
+          "team": "Carolina Panthers / Tepper Sports & Entertainment",
+          "title": "Manager - Data Engineering & Operations",
+          "location": "Location not visible in extracted listing",
+          "url": "https://jobs.dayforcehcm.com/en-US/cp87/CANDIDATEPORTAL/jobs/5978",
+          "checked_on": "2026-10-30",
+          "status": "official_index_only_description_blocked",
+          "category": "data_engineering",
+          "seniority": "manager",
+          "requirements": "Role title appears on Panthers' official current-openings page; full ATS description could not be retrieved.",
+          "skills": [],
+          "salary": null,
+          "notes": "Joint parent organization covers Panthers, Charlotte FC and venues; official page duplicates the same requisition.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "nfl-4",
+          "league": "NFL",
+          "team": "Los Angeles Rams",
+          "title": "Sr. Mgr., Marketing Analytics & Consumer Insights",
+          "location": "Woodland Hills, CA",
+          "url": "https://www.teamworkonline.com/football-jobs/la-rams-careers/los-angeles-rams/sr-mgr-marketing-analytics-consumer-insights-2181488",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "business_analytics",
+          "seniority": "senior_manager",
+          "requirements": "10+ years in analytics/insights/BI and 5+ years leading teams; executive dashboards, forecasts, attribution, segmentation, fan-data strategy and clear executive communication.",
+          "skills": [
+            "SQL",
+            "Python",
+            "R",
+            "Power BI",
+            "Tableau",
+            "forecasting",
+            "segmentation",
+            "CRM",
+            "data quality"
+          ],
+          "salary": "$105,000–$120,000 annually",
+          "notes": "Senior leadership role; useful requirements evidence, not an early-career target.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "nfl-5",
+          "league": "NFL",
+          "team": "San Francisco 49ers",
+          "title": "Senior Analyst, Performance Marketing",
+          "location": "Location not explicitly shown in retrieved requisition",
+          "url": "https://career4.successfactors.com/sfcareer/jobreqcareerpvt?company=SF49SP&jobId=6907&st=B69C4FF08AF879518CC6A155516E00C996F96079",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "marketing_analytics",
+          "seniority": "senior",
+          "requirements": "3–5 years relevant experience or equivalent; digital campaign strategy, fan engagement, attribution, conversion measurement and reporting across marketing platforms.",
+          "skills": [
+            "Excel",
+            "CRM",
+            "digital attribution",
+            "marketing measurement",
+            "fan engagement"
+          ],
+          "salary": "$85,000–$90,000 annually",
+          "notes": "Adjacent analytics/marketing role; body also uses Performance Marketing Senior Coordinator title, while requisition heading is Senior Analyst.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "mlb-6",
+          "league": "MLB",
+          "team": "Colorado Rockies",
+          "title": "Baseball Analytics Fellow",
+          "location": "Denver, CO (Coors Field)",
+          "url": "https://www.teamworkonline.com/baseball-jobs/colorado-rockies/colorado-rockies-jobs/baseball-analytics-fellow-2197246",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "baseball_analytics",
+          "seniority": "entry_fellow",
+          "requirements": "Quantitative/relevant bachelor's degree or equivalent; SQL and Python/R, complex-data cleaning/validation, statistics, modeling and stakeholder communication. Dashboards, Git and cloud experience preferred.",
+          "skills": [
+            "SQL",
+            "Python",
+            "R",
+            "data validation",
+            "predictive modeling",
+            "visualization",
+            "dashboards",
+            "Git",
+            "AWS"
+          ],
+          "salary": "$60,000 annual rate; approximately $50,000 for January 1–October 31 assignment",
+          "notes": "Temporary full-time assignment. Application deadline stated November 16, 2026.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "mlb-7",
+          "league": "MLB",
+          "team": "Colorado Rockies",
+          "title": "Senior or Lead Analyst (Forecasting)",
+          "location": "Denver, CO (onsite)",
+          "url": "https://www.teamworkonline.com/baseball-jobs/colorado-rockies/colorado-rockies-jobs/senior-or-lead-analyst-forecasting-2195095",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "baseball_analytics",
+          "seniority": "senior_lead",
+          "requirements": "Generally 4+ years relevant experience; 6+ for lead. Own predictive forecasting projects, validation, reproducibility, deployed tools and communication of uncertainty; lead scope includes mentoring.",
+          "skills": [
+            "Python",
+            "R",
+            "SQL",
+            "forecasting",
+            "model evaluation",
+            "reproducibility",
+            "communication"
+          ],
+          "salary": "Senior: $110,000–$140,000; Lead: $130,000–$150,000 annually",
+          "notes": "Posting states deadline October 30, 2026. Portfolio/GitHub highly suggested for candidates without MLB experience; deadline is the check date.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "mlb-8",
+          "league": "MLB",
+          "team": "Athletics",
+          "title": "Senior Data Architect",
+          "location": "Las Vegas, NV",
+          "url": "https://job-boards.greenhouse.io/athleticsbaseballops/jobs/8780149002",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "data_engineering",
+          "seniority": "senior",
+          "requirements": "Lead baseball data architecture and ETL/ELT; SQL/Python fluency, bronze/silver/gold architecture, cloud platforms and technical/team leadership. Quantitative technical bachelor's required; advanced degree preferred.",
+          "skills": [
+            "SQL",
+            "Python",
+            "ETL/ELT",
+            "SQL Server",
+            "lakehouse",
+            "medallion architecture",
+            "Azure",
+            "AWS",
+            "GCP",
+            "Docker",
+            "CI/CD"
+          ],
+          "salary": null,
+          "notes": "Baseball Operations R&D; onsite Las Vegas, with spring-training and 2027 West Sacramento travel.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "mlb-9",
+          "league": "MLB",
+          "team": "Baltimore Orioles",
+          "title": "Data Scientist, Baseball Analytics",
+          "location": "Baltimore, MD (onsite)",
+          "url": "https://www.teamworkonline.com/baseball-jobs/orioles-jobs/baltimore-orioles-jobs/data-scientist-baseball-analytics-2194356",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "data_science",
+          "seniority": "early_career",
+          "requirements": "Quantitative bachelor's/equivalent and 1+ year relevant professional experience; Python/R, statistics, large datasets, pipelines and communication. SQL, ML and Bayesian/probabilistic methods desired.",
+          "skills": [
+            "Python",
+            "R",
+            "data validation",
+            "predictive modeling",
+            "data pipelines",
+            "SQL",
+            "machine learning",
+            "Bayesian modeling",
+            "PyMC",
+            "Stan"
+          ],
+          "salary": "$90,000 annually depending on experience",
+          "notes": "Models and tools support talent acquisition, development and deployment.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "mlb-10",
+          "league": "MLB",
+          "team": "Baltimore Orioles",
+          "title": "Data Scientist Fellow, Baseball Analytics",
+          "location": "Baltimore, MD (onsite)",
+          "url": "https://www.teamworkonline.com/baseball-jobs/orioles-jobs/baltimore-orioles-jobs/data-scientist-fellow-baseball-analytics-2192482",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "data_science",
+          "seniority": "entry_fellow",
+          "requirements": "Statistics/modeling understanding and strong communication required; quantitative study, SQL and Python/R desired. Build interpretable models, clean source data, resolve quality issues and deliver usable tools.",
+          "skills": [
+            "SQL",
+            "Python",
+            "R",
+            "interpretable modeling",
+            "data quality",
+            "player valuation"
+          ],
+          "salary": "$20/hour",
+          "notes": "Part-time seasonal/hourly.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "mlb-11",
+          "league": "MLB",
+          "team": "Baltimore Orioles",
+          "title": "Domestic Scouting Analyst Fellow",
+          "location": "Baltimore, MD",
+          "url": "https://www.teamworkonline.com/baseball-jobs/orioles-jobs/baltimore-orioles-jobs/domestic-scouting-analyst-fellow-2188003",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "scouting_analytics",
+          "seniority": "entry_fellow",
+          "requirements": "Assist draft research, statistical review, player evaluation and data collection; baseball/scouting knowledge, Excel and communication preferred, SQL a plus.",
+          "skills": [
+            "Excel",
+            "SQL",
+            "player evaluation",
+            "data collection"
+          ],
+          "salary": "$20/hour",
+          "notes": "Part-time seasonal; also includes administrative/logistical and video duties.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "mlb-12",
+          "league": "MLB",
+          "team": "Boston Red Sox",
+          "title": "Minor League Complex Hitting Analyst and Rehab Coach",
+          "location": "Fort Myers, FL (onsite)",
+          "url": "https://jobs.lever.co/redsox/7cafc474-cda7-49af-acfd-40dd2b804d14",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "baseball_analytics",
+          "seniority": "analyst_coach",
+          "requirements": "Snowflake/SQL experience and practical hitting-environment experience; build dashboards/tools, query recurring data and communicate across departments. Tableau/R/Python/Excel preferred.",
+          "skills": [
+            "Snowflake",
+            "SQL",
+            "dashboards",
+            "Tableau",
+            "R",
+            "Python",
+            "Excel"
+          ],
+          "salary": null,
+          "notes": "Hybrid analytical and on-field coaching role, including batting-practice/rehab work; seasonal with possible full-time consideration.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "mlb-13",
+          "league": "MLB",
+          "team": "Kansas City Royals",
+          "title": "Analyst, Player Development - Research & Development",
+          "location": "Kansas City, MO; relocation strongly preferred",
+          "url": "https://www.teamworkonline.com/baseball-jobs/kansas-city-royals-jobs/kansas-city-royals/analyst-player-development-research-development-2192605",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "baseball_analytics",
+          "seniority": "entry",
+          "requirements": "Published baseball research or technical-project portfolio; strong SQL/R, modern player-development metrics and communication. Run daily reporting pipeline; modeling, software engineering, HTML/CSS preferred.",
+          "skills": [
+            "SQL",
+            "R",
+            "data pipelines",
+            "modeling",
+            "HTML",
+            "CSS",
+            "player development"
+          ],
+          "salary": null,
+          "notes": "Spring Training travel to Arizona required; quantitative degree or equivalent preferred.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "mlb-14",
+          "league": "MLB",
+          "team": "Kansas City Royals",
+          "title": "Analyst, Major League Pitching - Research & Development",
+          "location": "Kansas City, MO during season",
+          "url": "https://www.teamworkonline.com/baseball-jobs/kansas-city-royals-jobs/kansas-city-royals/analyst-major-league-pitching-research-development-2192604",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "baseball_analytics",
+          "seniority": "entry",
+          "requirements": "Published research or technical portfolio; SQL/R, pitching metrics and communication. Maintain daily pitching data/report workflows and perform ad hoc analyses; modeling/software engineering preferred.",
+          "skills": [
+            "SQL",
+            "R",
+            "data pipelines",
+            "modeling",
+            "HTML",
+            "CSS",
+            "pitching evaluation"
+          ],
+          "salary": null,
+          "notes": "In-season Kansas City residence and Arizona Spring Training required.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "mlb-15",
+          "league": "MLB",
+          "team": "Los Angeles Dodgers",
+          "title": "2027 Summer Analyst",
+          "location": "Los Angeles, CA",
+          "url": "https://www.teamworkonline.com/baseball-jobs/los-angeles-dodgers-jobs/los-angeles-dodgers/2027-summer-analyst-2191398",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "baseball_analytics",
+          "seniority": "student_intern",
+          "requirements": "Enrolled rising sophomore/junior/senior or graduate student; predictive-model building/evaluation and Python (preferred) or R. Communicate uncertainty; Git, probabilistic programming and deep learning optional.",
+          "skills": [
+            "Python",
+            "R",
+            "predictive modeling",
+            "model evaluation",
+            "Git",
+            "PyMC",
+            "Stan",
+            "PyTorch",
+            "TensorFlow"
+          ],
+          "salary": "$23/hour",
+          "notes": "Three-month part-time internship; unrestricted US work authorization. Posting explicitly prioritizes evidence such as GitHub or research.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "mlb-16",
+          "league": "MLB",
+          "team": "Los Angeles Dodgers",
+          "title": "Analyst, International Baseball Strategy & Information",
+          "location": "Los Angeles, CA",
+          "url": "https://www.teamworkonline.com/baseball-jobs/los-angeles-dodgers-jobs/los-angeles-dodgers/analyst-international-baseball-strategy-information-2190300",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "baseball_analytics",
+          "seniority": "early_career",
+          "requirements": "Quantitative bachelor's and 0–3 years experience; production-quality SQL and Python/R, data audit/validation and research communication. ETL/dbt-style workflows, cloud infrastructure and BI tools advantageous.",
+          "skills": [
+            "SQL",
+            "Python",
+            "R",
+            "data quality",
+            "ETL",
+            "dbt",
+            "AWS",
+            "dashboards",
+            "player valuation"
+          ],
+          "salary": "$80,000–$95,000",
+          "notes": "Onsite; focus starts with auditing/consolidating international scouting data before valuation and projections.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "mlb-17",
+          "league": "MLB",
+          "team": "Miami Marlins",
+          "title": "Player Development Solutions Analyst Fellowship",
+          "location": "Affiliate placements: Jacksonville FL, Pensacola FL, Beloit WI, Jupiter FL, or Dominican Republic",
+          "url": "https://www.teamworkonline.com/baseball-jobs/miamibaseball/miami-marlins/player-development-solutions-analyst-fellowship-2194788",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "baseball_analytics",
+          "seniority": "fellow",
+          "requirements": "Baseball analytics, visualization and communication to coaches/players; related bachelor's, baseball analytical work, SQL/R/Python and Spanish desired. Produce scouting materials and track player-development progress.",
+          "skills": [
+            "SQL",
+            "R",
+            "Python",
+            "visualization",
+            "sabermetrics",
+            "advance scouting"
+          ],
+          "salary": null,
+          "notes": "In person mid-February through end of MiLB season; housing assistance; irregular hours and travel.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "mlb-18",
+          "league": "MLB",
+          "team": "Minnesota Twins",
+          "title": "Senior Analyst, Baseball Research",
+          "location": "Minneapolis, MN",
+          "url": "https://www.teamworkonline.com/baseball-jobs/minnesota-twins/minnesota-twins-jobs/senior-analyst-baseball-research-2195322",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "baseball_analytics",
+          "seniority": "senior",
+          "requirements": "Quantitative graduate degree or equivalent and 3+ years quantitative work. Python/R/SQL, reproducible research and model validation; use tracking data, maintain reusable infrastructure and mentor analysts.",
+          "skills": [
+            "Python",
+            "R",
+            "SQL",
+            "player tracking",
+            "model evaluation",
+            "reproducible research",
+            "data pipelines"
+          ],
+          "salary": "$85,000–$95,000 annually plus performance-based bonus",
+          "notes": "Employer ATS listing accessible despite old ADP route failing.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "mlb-19",
+          "league": "MLB",
+          "team": "New York Yankees",
+          "title": "Advance Scouting Analyst",
+          "location": "Tampa, FL with affiliate-team travel",
+          "url": "https://www.teamworkonline.com/baseball-jobs/new-york-yankees/new-york-yankees/advance-scouting-analyst-2197483",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "scouting_analytics",
+          "seniority": "entry",
+          "requirements": "Bachelor's and advanced baseball/sabermetric understanding; SQL and R/Python preferred. Prepare affiliate advance reports and quantitative research and communicate practical recommendations to staff/players.",
+          "skills": [
+            "SQL",
+            "R",
+            "Python",
+            "sabermetrics",
+            "quantitative research",
+            "advance reports"
+          ],
+          "salary": null,
+          "notes": "Full-time exempt; on-field technology and player-development support; Spanish a plus.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "mlb-20",
+          "league": "MLB",
+          "team": "Pittsburgh Pirates",
+          "title": "Analyst - Baseball Strategy",
+          "location": "Pittsburgh, PA",
+          "url": "https://www.teamworkonline.com/baseball-jobs/pittsburghpirates/pittsburgh-pirates-jobs/analyst-baseball-strategy-2193335",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "baseball_analytics",
+          "seniority": "analyst_or_senior",
+          "requirements": "Python/R and SQL, modern baseball research, clear recommendations and fast-paced project execution. Research portfolio, pitch-design experience and Git/GitHub/GitLab desired.",
+          "skills": [
+            "Python",
+            "R",
+            "SQL",
+            "Git",
+            "GitHub",
+            "baseball research",
+            "decision support"
+          ],
+          "salary": null,
+          "notes": "Considers both analyst and senior levels; supports coaches, game preparation, strategy and review.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "mlb-21",
+          "league": "MLB",
+          "team": "Toronto Blue Jays",
+          "title": "Baseball Research Specialist",
+          "location": "Toronto, ON, Canada",
+          "url": "https://www.teamworkonline.com/baseball-jobs/toronto-blue-jays-jobs/toronto-blue-jays/baseball-research-specialist-2197544",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "baseball_analytics",
+          "seniority": "mid",
+          "requirements": "2–3+ years research/data science, predictive modeling and communicating to nontechnical users; SQL/relational databases and Python/R; rigorous quantitative research.",
+          "skills": [
+            "SQL",
+            "Python",
+            "R",
+            "predictive modeling",
+            "research design",
+            "communication"
+          ],
+          "salary": "$90,000–$100,000 annually; currency not explicitly labeled in source",
+          "notes": "New position; do not infer currency from the dollar symbol.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "mlb-22",
+          "league": "MLB",
+          "team": "Toronto Blue Jays",
+          "title": "Data Scientist, Baseball Research",
+          "location": "Toronto, ON, Canada",
+          "url": "https://www.teamworkonline.com/baseball-jobs/toronto-blue-jays-jobs/toronto-blue-jays/data-scientist-baseball-research-2197545",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "data_science",
+          "seniority": "senior",
+          "requirements": "4–5+ years data science, predictive models and research communication; SQL/R/Python and demonstrated LLM/gen-AI research use. Bayesian, vision, biomechanical or time-series work advantageous.",
+          "skills": [
+            "SQL",
+            "R",
+            "Python",
+            "predictive modeling",
+            "LLMs",
+            "Bayesian modeling",
+            "computer vision",
+            "time-series"
+          ],
+          "salary": "$115,000–$130,000 annually; currency not explicitly labeled in source",
+          "notes": "New position; includes mentoring and technical guidance.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "mlb-23",
+          "league": "MLB",
+          "team": "Washington Nationals",
+          "title": "Junior Analyst, Player Projections",
+          "location": "Washington, DC",
+          "url": "https://www.teamworkonline.com/baseball-jobs/washington-nationals/washington-nationals/junior-analyst-player-projections-2189606",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "baseball_analytics",
+          "seniority": "early_career",
+          "requirements": "Early-career aptitude in forecasting, probability, Python/R, SQL pipelines, ML/model evaluation and communicating research; baseball prospect valuation or domain depth expected.",
+          "skills": [
+            "Python",
+            "R",
+            "SQL",
+            "forecasting",
+            "probabilistic programming",
+            "Stan",
+            "PyMC",
+            "machine learning",
+            "model evaluation"
+          ],
+          "salary": "$65,000–$80,000 annually",
+          "notes": "Predict major/minor-league player performance for trade/free-agent decisions.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        },
+        {
+          "id": "mlb-24",
+          "league": "MLB",
+          "team": "San Francisco Giants",
+          "title": "Coordinator, Pitching Analysis",
+          "location": "Scottsdale/Papago, AZ",
+          "url": "https://jobs.lever.co/sfgiants/0582a6d6-778d-4c4c-b32c-c16b5ce3008d",
+          "checked_on": "2026-10-30",
+          "status": "verified_accessible_listing",
+          "category": "baseball_analytics",
+          "seniority": "coordinator",
+          "requirements": "Pitch mechanics/design and player-development knowledge; pitch-tracking/video tools and communication; professional/college coaching or analytical experience preferred. Programming/analysis/AI familiarity strongly preferred.",
+          "skills": [
+            "pitch tracking",
+            "video analysis",
+            "pitch design",
+            "performance analysis",
+            "tool development"
+          ],
+          "salary": null,
+          "notes": "Adjacent analytical/coaching role; specific programming languages not stated.",
+          "evidence": "Description and Apply control were accessible on the employer or employer-designated ATS page; availability can change."
+        }
+      ],
+      "sources": [
+        {
+          "title": "NFL official club careers directory",
+          "url": "https://www.nfl.com/careers/clubs",
+          "type": "official_directory",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "NFL official teams",
+          "url": "https://www.nfl.com/teams/",
+          "type": "official_roster",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "MLB official teams",
+          "url": "https://www.mlb.com/team",
+          "type": "official_roster",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "MLB club career links",
+          "url": "https://www.mlb.com/player-resource-center/work-opportunities",
+          "type": "official_directory",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Arizona Cardinals — AI and Data Platform Engineer",
+          "url": "https://www.teamworkonline.com/football-jobs/arizona-cardinals-jobs/arizona-cardinals/ai-and-data-platform-engineer-2194920",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Indianapolis Colts — Data Engineer",
+          "url": "https://www.teamworkonline.com/football-jobs/indianapolis-colts-jobs/indianapolis-colts/data-engineer-2196552",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Carolina Panthers / Tepper Sports & Entertainment — Manager - Data Engineering & Operations",
+          "url": "https://jobs.dayforcehcm.com/en-US/cp87/CANDIDATEPORTAL/jobs/5978",
+          "type": "official_careers_index",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Los Angeles Rams — Sr. Mgr., Marketing Analytics & Consumer Insights",
+          "url": "https://www.teamworkonline.com/football-jobs/la-rams-careers/los-angeles-rams/sr-mgr-marketing-analytics-consumer-insights-2181488",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "San Francisco 49ers — Senior Analyst, Performance Marketing",
+          "url": "https://career4.successfactors.com/sfcareer/jobreqcareerpvt?company=SF49SP&jobId=6907&st=B69C4FF08AF879518CC6A155516E00C996F96079",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Colorado Rockies — Baseball Analytics Fellow",
+          "url": "https://www.teamworkonline.com/baseball-jobs/colorado-rockies/colorado-rockies-jobs/baseball-analytics-fellow-2197246",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Colorado Rockies — Senior or Lead Analyst (Forecasting)",
+          "url": "https://www.teamworkonline.com/baseball-jobs/colorado-rockies/colorado-rockies-jobs/senior-or-lead-analyst-forecasting-2195095",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Athletics — Senior Data Architect",
+          "url": "https://job-boards.greenhouse.io/athleticsbaseballops/jobs/8780149002",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Baltimore Orioles — Data Scientist, Baseball Analytics",
+          "url": "https://www.teamworkonline.com/baseball-jobs/orioles-jobs/baltimore-orioles-jobs/data-scientist-baseball-analytics-2194356",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Baltimore Orioles — Data Scientist Fellow, Baseball Analytics",
+          "url": "https://www.teamworkonline.com/baseball-jobs/orioles-jobs/baltimore-orioles-jobs/data-scientist-fellow-baseball-analytics-2192482",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Baltimore Orioles — Domestic Scouting Analyst Fellow",
+          "url": "https://www.teamworkonline.com/baseball-jobs/orioles-jobs/baltimore-orioles-jobs/domestic-scouting-analyst-fellow-2188003",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Boston Red Sox — Minor League Complex Hitting Analyst and Rehab Coach",
+          "url": "https://jobs.lever.co/redsox/7cafc474-cda7-49af-acfd-40dd2b804d14",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Kansas City Royals — Analyst, Player Development - Research & Development",
+          "url": "https://www.teamworkonline.com/baseball-jobs/kansas-city-royals-jobs/kansas-city-royals/analyst-player-development-research-development-2192605",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Kansas City Royals — Analyst, Major League Pitching - Research & Development",
+          "url": "https://www.teamworkonline.com/baseball-jobs/kansas-city-royals-jobs/kansas-city-royals/analyst-major-league-pitching-research-development-2192604",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Los Angeles Dodgers — 2027 Summer Analyst",
+          "url": "https://www.teamworkonline.com/baseball-jobs/los-angeles-dodgers-jobs/los-angeles-dodgers/2027-summer-analyst-2191398",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Los Angeles Dodgers — Analyst, International Baseball Strategy & Information",
+          "url": "https://www.teamworkonline.com/baseball-jobs/los-angeles-dodgers-jobs/los-angeles-dodgers/analyst-international-baseball-strategy-information-2190300",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Miami Marlins — Player Development Solutions Analyst Fellowship",
+          "url": "https://www.teamworkonline.com/baseball-jobs/miamibaseball/miami-marlins/player-development-solutions-analyst-fellowship-2194788",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Minnesota Twins — Senior Analyst, Baseball Research",
+          "url": "https://www.teamworkonline.com/baseball-jobs/minnesota-twins/minnesota-twins-jobs/senior-analyst-baseball-research-2195322",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "New York Yankees — Advance Scouting Analyst",
+          "url": "https://www.teamworkonline.com/baseball-jobs/new-york-yankees/new-york-yankees/advance-scouting-analyst-2197483",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Pittsburgh Pirates — Analyst - Baseball Strategy",
+          "url": "https://www.teamworkonline.com/baseball-jobs/pittsburghpirates/pittsburgh-pirates-jobs/analyst-baseball-strategy-2193335",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Toronto Blue Jays — Baseball Research Specialist",
+          "url": "https://www.teamworkonline.com/baseball-jobs/toronto-blue-jays-jobs/toronto-blue-jays/baseball-research-specialist-2197544",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Toronto Blue Jays — Data Scientist, Baseball Research",
+          "url": "https://www.teamworkonline.com/baseball-jobs/toronto-blue-jays-jobs/toronto-blue-jays/data-scientist-baseball-research-2197545",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Washington Nationals — Junior Analyst, Player Projections",
+          "url": "https://www.teamworkonline.com/baseball-jobs/washington-nationals/washington-nationals/junior-analyst-player-projections-2189606",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "San Francisco Giants — Coordinator, Pitching Analysis",
+          "url": "https://jobs.lever.co/sfgiants/0582a6d6-778d-4c4c-b32c-c16b5ce3008d",
+          "type": "employer_ats_listing",
+          "checked_on": "2026-10-30"
+        }
+      ],
+      "summary": {
+        "checked_on": "2026-10-30",
+        "scope": "NFL (32) and MLB (30) clubs; no global/all-sport completeness claim.",
+        "teams_total": 62,
+        "reviewed": 35,
+        "blocked": 27,
+        "verified_accessible_listings": 23,
+        "index_only_descriptions_blocked": 1,
+        "methodology": "Followed official league club-careers directories to employer pages and designated ATS. Reviewed accessible boards and job descriptions; current listing means a retrievable description with an Apply control and no closure notice. Application submission endpoints were not completed. Some official legacy URLs failed and employer ATS alternatives were used. No-matching-visible means only the accessible extracted board, not proof there are no jobs. Browser/JavaScript-blocked feeds remain explicitly blocked. Salary values are exactly sourced ranges/rates; no estimated salaries included.",
+        "portfolio_implications": [
+          "Build a reproducible public-data ingestion and validation pipeline in SQL/Python.",
+          "Expose a decision-oriented scouting, player-evaluation or strategy dashboard; explain assumptions and uncertainty.",
+          "Include a predictive model with leakage-aware evaluation and baseline comparison.",
+          "Publish readable methodology, tests, data lineage, code and an accessible demo; Dodgers/Royals/Rockies postings explicitly value portfolios or GitHub.",
+          "Do not claim professional team impact, proprietary tracking access or hiring guarantees."
+        ],
+        "limitations": [
+          "Checked-on date is the user's local date 2026-10-30.",
+          "Inventory includes all 62 current club career routes, but 27 routes are blocked or incomplete.",
+          "Reviewed routes can also have partial primary-board access; team notes name alternate sources and limitations.",
+          "Accessible job descriptions and Apply controls do not guarantee a vacancy remains open at application time.",
+          "Some analytics-adjacent coaching/marketing roles are included and labeled accordingly."
+        ]
+      }
+    },
+    {
+      "teams": [
+        {
+          "league": "NBA",
+          "team": "Atlanta Hawks",
+          "career_url": "https://wd1.myworkdaysite.com/en-US/recruiting/hawks/External",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "League-designated Workday returned no readable listings."
+        },
+        {
+          "league": "NBA",
+          "team": "Boston Celtics",
+          "career_url": "https://www.nba.com/celtics/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Official career page reached; linked ADP requires supported browser."
+        },
+        {
+          "league": "NBA",
+          "team": "Brooklyn Nets",
+          "career_url": "https://bkse.com/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Official shared employer careers reached; dynamic job accordions not exposed."
+        },
+        {
+          "league": "NBA",
+          "team": "Charlotte Hornets",
+          "career_url": "https://recruiting.ultipro.com/HOR1011HORNT/JobBoard/5b257d2d-0813-4167-b64c-95fb001e0d96/?o=postedDateDesc&q=",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "League-designated UKG board reports unsupported browser."
+        },
+        {
+          "league": "NBA",
+          "team": "Chicago Bulls",
+          "career_url": "https://www.nba.com/bulls/career-opportunities",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Official page displays 0 of 0 but dynamic loading cannot be ruled out."
+        },
+        {
+          "league": "NBA",
+          "team": "Cleveland Cavaliers",
+          "career_url": "https://www.teamworkonline.com/basketball-jobs/cleveland-cavaliers/cleveland-cavaliers-jobs",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Accessible current board reviewed; no matching data title observed."
+        },
+        {
+          "league": "NBA",
+          "team": "Dallas Mavericks",
+          "career_url": "https://www.nba.com/mavs/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "League-designated career page returned only tracking iframe."
+        },
+        {
+          "league": "NBA",
+          "team": "Denver Nuggets",
+          "career_url": "https://www.pepsicenter.com/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Official KSE career page reached; current listing content not exposed."
+        },
+        {
+          "league": "NBA",
+          "team": "Detroit Pistons",
+          "career_url": "https://www.nba.com/pistons/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Official career page returned only tracking iframe."
+        },
+        {
+          "league": "NBA",
+          "team": "Golden State Warriors",
+          "career_url": "https://www.teamworkonline.com/basketball-jobs/warriors/golden-state-warriors-careers",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "League-designated accessible board reviewed; no analyst or data title observed."
+        },
+        {
+          "league": "NBA",
+          "team": "Houston Rockets",
+          "career_url": "https://www.toyotacenter.com/arena-info/business-ventures/employment",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "League-listed employer career link returned 404."
+        },
+        {
+          "league": "NBA",
+          "team": "Indiana Pacers",
+          "career_url": "https://apply.clearcompany.com/pse?noheader=False",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "League-designated shared Pacers/Fever ATS exposed no listings."
+        },
+        {
+          "league": "NBA",
+          "team": "LA Clippers",
+          "career_url": "https://www.nba.com/clippers/company/careers/openpositions",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Official open-positions page remains at loading image in text retrieval."
+        },
+        {
+          "league": "NBA",
+          "team": "Los Angeles Lakers",
+          "career_url": "https://www.teamworkonline.com/basketball-jobs/los-angeles-lakers/los-angeles-lakers-jobs",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Accessible board and two relevant full descriptions reviewed."
+        },
+        {
+          "league": "NBA",
+          "team": "Memphis Grizzlies",
+          "career_url": "https://careers-grizzlies.icims.com/jobs/search",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Official career page followed to readable iCIMS board."
+        },
+        {
+          "league": "NBA",
+          "team": "Miami Heat",
+          "career_url": "https://www.nba.com/heat/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Official career page reached; linked UKG reports unsupported browser."
+        },
+        {
+          "league": "NBA",
+          "team": "Milwaukee Bucks",
+          "career_url": "https://www.nba.com/bucks/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Official career page gives no readable job listings."
+        },
+        {
+          "league": "NBA",
+          "team": "Minnesota Timberwolves",
+          "career_url": "https://www.nba.com/timberwolves/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Official shared Wolves/Lynx career page returned only tracking iframe."
+        },
+        {
+          "league": "NBA",
+          "team": "New Orleans Pelicans",
+          "career_url": "https://www.nba.com/pelicans/career-opportunities",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Official career page returned only tracking iframe."
+        },
+        {
+          "league": "NBA",
+          "team": "New York Knicks",
+          "career_url": "https://www.msgknicks.com/jobs/",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://www.msgknicks.com/jobs/",
+          "notes": "Official employer jobs page found through MSG Entertainment; no matching data title observed."
+        },
+        {
+          "league": "NBA",
+          "team": "Oklahoma City Thunder",
+          "career_url": "https://www.nba.com/thunder/employment",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Official employment page returned only tracking iframe."
+        },
+        {
+          "league": "NBA",
+          "team": "Orlando Magic",
+          "career_url": "https://www.nba.com/magic/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Official career page reached; linked UKG reports unsupported browser."
+        },
+        {
+          "league": "NBA",
+          "team": "Philadelphia 76ers",
+          "career_url": "https://recruit.hirebridge.com/v3/CareerCenter/v2/?cid=8097",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "League-designated ATS returns search UI but no readable job list."
+        },
+        {
+          "league": "NBA",
+          "team": "Phoenix Suns",
+          "career_url": "https://www.nba.com/suns/contact/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Official shared Suns/Mercury careers reached; Dayforce listing shell only."
+        },
+        {
+          "league": "NBA",
+          "team": "Portland Trail Blazers",
+          "career_url": "https://jobs.ripcity.org/",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Official career site displays zero jobs but dynamic loading cannot be ruled out."
+        },
+        {
+          "league": "NBA",
+          "team": "Sacramento Kings",
+          "career_url": "https://www.nba.com/kings/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Official career page returned only tracking iframe."
+        },
+        {
+          "league": "NBA",
+          "team": "San Antonio Spurs",
+          "career_url": "https://www.nba.com/spurs/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Official career page reached; linked ATS not yet parsed."
+        },
+        {
+          "league": "NBA",
+          "team": "Toronto Raptors",
+          "career_url": "https://www.mlse.com/our-company/join-our-team",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Official employer careers reached; Workday board returned no readable content."
+        },
+        {
+          "league": "NBA",
+          "team": "Utah Jazz",
+          "career_url": "https://www.teamworkonline.com/basketball-jobs/utah-jazz-jobs/utah-jazz",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Accessible board; three basketball analytics/DS descriptions reviewed."
+        },
+        {
+          "league": "NBA",
+          "team": "Washington Wizards",
+          "career_url": "https://www.teamworkonline.com/multiple-properties/monumentalsports/monumental-sports",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "League-designated shared employer board reviewed; no core data scientist/analyst title observed; CRM developer adjacent."
+        },
+        {
+          "league": "WNBA",
+          "team": "Atlanta Dream",
+          "career_url": "https://www.teamworkonline.com/basketball-jobs/nbateamjobs/atlanta-dream",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "League-designated board returns no job results."
+        },
+        {
+          "league": "WNBA",
+          "team": "Chicago Sky",
+          "career_url": "https://www.teamworkonline.com/basketball-jobs/nbateamjobs/chicago-sky",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "League-designated board returns no job results."
+        },
+        {
+          "league": "WNBA",
+          "team": "Connecticut Sun",
+          "career_url": "https://www.teamworkonline.com/basketball-jobs/nbateamjobs/connecticut-sun",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "League-designated board returns 404."
+        },
+        {
+          "league": "WNBA",
+          "team": "Dallas Wings",
+          "career_url": "https://www.teamworkonline.com/basketball-jobs/nbateamjobs/dallas-wings",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Accessible current board reviewed; no matching data role observed."
+        },
+        {
+          "league": "WNBA",
+          "team": "Golden State Valkyries",
+          "career_url": "https://www.teamworkonline.com/basketball-jobs/warriors/golden-state-valkyries-jobs",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Accessible board reviewed; no matching data role observed."
+        },
+        {
+          "league": "WNBA",
+          "team": "Indiana Fever",
+          "career_url": "https://apply.clearcompany.com/pse?noheader=False",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Shared Pacers/Fever employer ATS exposes no listings."
+        },
+        {
+          "league": "WNBA",
+          "team": "Las Vegas Aces",
+          "career_url": "https://www.teamworkonline.com/basketball-jobs/nbateamjobs/wnba-las-vegas",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "League-designated board returns no job results."
+        },
+        {
+          "league": "WNBA",
+          "team": "Los Angeles Sparks",
+          "career_url": "https://www.teamworkonline.com/basketball-jobs/nbateamjobs/los-angeles-sparks",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Current board lacks earlier indexed basketball Data Scientist; historical lead retained separately."
+        },
+        {
+          "league": "WNBA",
+          "team": "Minnesota Lynx",
+          "career_url": "https://www.nba.com/timberwolves/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Shared official employer career page returned only tracking iframe."
+        },
+        {
+          "league": "WNBA",
+          "team": "New York Liberty",
+          "career_url": "https://bkse.com/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Shared employer official careers reached; dynamic job details not exposed."
+        },
+        {
+          "league": "WNBA",
+          "team": "Phoenix Mercury",
+          "career_url": "https://www.nba.com/suns/contact/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Shared employer official careers reached; Dayforce listing shell only."
+        },
+        {
+          "league": "WNBA",
+          "team": "Portland Fire",
+          "career_url": "https://www.teamworkonline.com/multiple-properties/raj-sports-jobs/portland-wnba-jobs",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://www.wnba.com/teams",
+          "notes": "Official Fire career page followed to board returning no results."
+        },
+        {
+          "league": "WNBA",
+          "team": "Seattle Storm",
+          "career_url": "https://storm.wnba.com/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Official careers reached; Paylocity ATS requires JavaScript/supported browser."
+        },
+        {
+          "league": "WNBA",
+          "team": "Toronto Tempo",
+          "career_url": "https://tempobasketball.com/careers/",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://www.wnba.com/teams",
+          "notes": "Official careers exposes future-interest form only; employer LinkedIn data-engineer lead awaits ATS verification."
+        },
+        {
+          "league": "WNBA",
+          "team": "Washington Mystics",
+          "career_url": "https://www.teamworkonline.com/multiple-properties/monumentalsports/monumental-sports",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://careers.nba.com/teams/",
+          "notes": "Shared employer board reviewed; indexed August basketball analyst absent from current board."
+        },
+        {
+          "league": "NHL",
+          "team": "Anaheim Ducks",
+          "career_url": "https://www.teamworkonline.com/hockey-jobs/anaheim-ducks-jobs/anaheim-ducks-hockey-club",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Official team footer links this board; no matching title observed."
+        },
+        {
+          "league": "NHL",
+          "team": "Boston Bruins",
+          "career_url": "https://careers.delawarenorth.com/bruins-jobs/",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Employer Bruins board displays zero live results; no matching role established."
+        },
+        {
+          "league": "NHL",
+          "team": "Buffalo Sabres",
+          "career_url": "https://www.nhl.com/sabres/team/career-opportunities",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Official careers followed to UKG board; unsupported browser response."
+        },
+        {
+          "league": "NHL",
+          "team": "Calgary Flames",
+          "career_url": "https://www.nhl.com/flames/team/job-opportunities",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Official careers followed to UKG; unsupported browser response."
+        },
+        {
+          "league": "NHL",
+          "team": "Carolina Hurricanes",
+          "career_url": "https://www.teamworkonline.com/hockey-jobs/carolina-hurricanes-jobs/carolina-hurricanes",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://www.teamworkonline.com/hockey-jobs/carolina-hurricanes-jobs/carolina-hurricanes",
+          "notes": "Accessible team board reviewed; no matching data title observed."
+        },
+        {
+          "league": "NHL",
+          "team": "Chicago Blackhawks",
+          "career_url": "https://www.teamworkonline.com/hockey-jobs/chicago-blackhawks/chicago-blackhawks",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Accessible board reviewed; no matching data role observed."
+        },
+        {
+          "league": "NHL",
+          "team": "Colorado Avalanche",
+          "career_url": "https://www.pepsicenter.com/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Shared KSE career landing reached; job listing content not exposed."
+        },
+        {
+          "league": "NHL",
+          "team": "Columbus Blue Jackets",
+          "career_url": "https://www.nhl.com/bluejackets/team/employment",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Official career page reviewed; designated TeamWork keyword search returned unrelated mixed results."
+        },
+        {
+          "league": "NHL",
+          "team": "Dallas Stars",
+          "career_url": "https://www.teamworkonline.com/hockey-jobs/dallas-stars-jobs/dallas-stars",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Accessible board reviewed; no matching data role observed."
+        },
+        {
+          "league": "NHL",
+          "team": "Detroit Red Wings",
+          "career_url": "https://www.teamworkonline.com/multiple-properties/ilitch-sports/detroit-red-wings",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Accessible board and hockey Data Engineer full listing reviewed."
+        },
+        {
+          "league": "NHL",
+          "team": "Edmonton Oilers",
+          "career_url": "https://www.teamworkonline.com/hockey-jobs/edmontonoilers/edmonton-oilers-29182",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Accessible board reviewed; financial-reporting analyst adjacent to core data scope."
+        },
+        {
+          "league": "NHL",
+          "team": "Florida Panthers",
+          "career_url": "https://job-boards.greenhouse.io/thefloridapanthers",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Official careers links Greenhouse; board reviewed, no data title observed."
+        },
+        {
+          "league": "NHL",
+          "team": "Los Angeles Kings",
+          "career_url": "https://aegworldwide.com/careers/job-search?field_job_locations_target_id%5B%5D=487286&title=",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Employer job board for El Segundo reviewed; no matching data title observed."
+        },
+        {
+          "league": "NHL",
+          "team": "Minnesota Wild",
+          "career_url": "https://www.nhl.com/wild/team/employment-opportunities",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Official careers followed to Dayforce; search shell only."
+        },
+        {
+          "league": "NHL",
+          "team": "Montréal Canadiens",
+          "career_url": "https://centrebell.ca/fr/page/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://centrebell.ca/fr/page/careers",
+          "notes": "Team site inspected; employer Centre Bell career destination could not be fetched. Search-only business analyst/CRM leads require verification."
+        },
+        {
+          "league": "NHL",
+          "team": "Nashville Predators",
+          "career_url": "https://www.teamworkonline.com/hockey-jobs/nashville-predators/nashville-predators",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Accessible board and BI analyst plus finance analyst descriptions reviewed."
+        },
+        {
+          "league": "NHL",
+          "team": "New Jersey Devils",
+          "career_url": "https://www.prucenter.com/careers",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Official careers followed to employer-designated TeamWork filtered board; no matching data role."
+        },
+        {
+          "league": "NHL",
+          "team": "New York Islanders",
+          "career_url": "https://recruiting.paylocity.com/Recruiting/Jobs/All/e0a4a6d2-e64b-4164-af58-9c65d5c42821",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://recruiting.paylocity.com/Recruiting/Jobs/All/e0a4a6d2-e64b-4164-af58-9c65d5c42821",
+          "notes": "Direct Paylocity board reports JavaScript/unsupported browser; search-index CRM leadership lead not counted verified."
+        },
+        {
+          "league": "NHL",
+          "team": "New York Rangers",
+          "career_url": "https://www.msgrangers.com/jobs/",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://www.msgrangers.com/jobs/",
+          "notes": "Official employer jobs page reviewed; only talent-network listing visible."
+        },
+        {
+          "league": "NHL",
+          "team": "Ottawa Senators",
+          "career_url": "https://www.nhl.com/senators/team/employment-opportunities",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Official careers followed to BambooHR; zero readable lines."
+        },
+        {
+          "league": "NHL",
+          "team": "Philadelphia Flyers",
+          "career_url": "https://www.teamworkonline.com/hockey-jobs/philadelphia-flyers-jobs/philadelphia-flyers-jobs",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Current team ATS returns no results; employer corporate roles may be elsewhere."
+        },
+        {
+          "league": "NHL",
+          "team": "Pittsburgh Penguins",
+          "career_url": "https://www.teamworkonline.com/hockey-jobs/pittsburgh-penguins/pittsburgh-penguins",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://www.teamworkonline.com/hockey-jobs/pittsburgh-penguins/pittsburgh-penguins",
+          "notes": "Current accessible team board reviewed; Summer 2027 R&D internship seen in older search index absent direct board."
+        },
+        {
+          "league": "NHL",
+          "team": "San Jose Sharks",
+          "career_url": "https://www.teamworkonline.com/hockey-jobs/sharkssports/sharks-sports-and-entertainment",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Accessible board; Revenue Optimization Manager has analytics/BI responsibilities."
+        },
+        {
+          "league": "NHL",
+          "team": "Seattle Kraken",
+          "career_url": "https://www.nhl.com/kraken/team/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Official careers followed to UKG; unsupported browser response."
+        },
+        {
+          "league": "NHL",
+          "team": "St. Louis Blues",
+          "career_url": "https://www.enterprisecenter.com/about-us/employment/open-positions",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://www.enterprisecenter.com/about-us/employment/open-positions",
+          "notes": "Official employer open-positions page reached but no readable jobs. Central NHL ATS has current unrelated positions."
+        },
+        {
+          "league": "NHL",
+          "team": "Tampa Bay Lightning",
+          "career_url": "https://www.teamworkonline.com/hockey-jobs/tampanhl/vinik-sports-group-jobs",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://www.teamworkonline.com/hockey-jobs/tampanhl/vinik-sports-group-jobs",
+          "notes": "Official employer career landing followed to accessible current board; no matching data title observed."
+        },
+        {
+          "league": "NHL",
+          "team": "Toronto Maple Leafs",
+          "career_url": "https://www.mlse.com/our-company/join-our-team",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Shared official MLSE careers reached; Workday exposes no listings."
+        },
+        {
+          "league": "NHL",
+          "team": "Utah Mammoth",
+          "career_url": "https://www.teamworkonline.com/hockey-jobs/utah-nhl-jobs/utah-nhl-jobs",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Accessible employer board reviewed; no matching data title observed."
+        },
+        {
+          "league": "NHL",
+          "team": "Vancouver Canucks",
+          "career_url": "https://jobs.canucks.com/head-office/",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Official employer career page followed to UKG; unsupported browser response."
+        },
+        {
+          "league": "NHL",
+          "team": "Vegas Golden Knights",
+          "career_url": "https://www.nhl.com/es/goldenknights/team/careers",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Official careers followed to team-specific TeamWork board; no matching data title."
+        },
+        {
+          "league": "NHL",
+          "team": "Washington Capitals",
+          "career_url": "https://www.teamworkonline.com/multiple-properties/monumentalsports/monumental-sports",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Shared official employer board reviewed; no core matching data title observed."
+        },
+        {
+          "league": "NHL",
+          "team": "Winnipeg Jets",
+          "career_url": "https://www.tnse.com/join-our-team/",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "evidence": "https://www.nhl.com/info/teams/",
+          "notes": "Official team employment link followed to employer current openings; no matching data title."
+        }
+      ],
+      "jobs": [
+        {
+          "title": "Data Scientist, Analytics Strategy",
+          "team": "Los Angeles Lakers",
+          "league": "NBA",
+          "location": "El Segundo, CA",
+          "url": "https://www.teamworkonline.com/basketball-jobs/los-angeles-lakers/los-angeles-lakers-jobs/data-scientist-2196524",
+          "status": "verified_listing",
+          "checked_on": "2026-10-30",
+          "requirements": "3+ years professional data science/ML; relevant degree or equivalent; production models for player evaluation, roster construction and game decisions. Office Monday–Friday.",
+          "skills": [
+            "Python",
+            "SQL",
+            "PySpark",
+            "machine learning",
+            "model validation",
+            "Git",
+            "MLOps"
+          ],
+          "salary": "USD 100,000–115,000 annually",
+          "family": "data_science",
+          "notes": ""
+        },
+        {
+          "title": "Senior Business Analytics Engineer",
+          "team": "Los Angeles Lakers",
+          "league": "NBA",
+          "location": "El Segundo, CA",
+          "url": "https://www.teamworkonline.com/basketball-jobs/los-angeles-lakers/los-angeles-lakers-jobs/senior-business-analytics-engineer-2189837",
+          "status": "verified_listing",
+          "checked_on": "2026-10-30",
+          "requirements": "3–5+ years analytics/BI; own ticketing dashboards, revenue forecasts, metrics and experiments; degree or equivalent.",
+          "skills": [
+            "Tableau",
+            "Power BI",
+            "Excel",
+            "SQL",
+            "data quality",
+            "experimentation",
+            "stakeholder communication"
+          ],
+          "salary": "USD 120,000–140,000 annually",
+          "family": "analytics_engineering",
+          "notes": ""
+        },
+        {
+          "title": "Basketball Data Scientist",
+          "team": "Utah Jazz",
+          "league": "NBA",
+          "location": "Salt Lake City, UT; remote candidates considered",
+          "url": "https://www.teamworkonline.com/basketball-jobs/utah-jazz-jobs/utah-jazz/basketball-data-scientist-2192630",
+          "status": "verified_listing",
+          "checked_on": "2026-10-30",
+          "requirements": "2+ years production statistical modeling in Python/R, basketball analytics and visualization; relevant degree or equivalent; maintain/test datasets and documented code.",
+          "skills": [
+            "Python",
+            "R",
+            "statistics",
+            "predictive modeling",
+            "data visualization",
+            "SQL",
+            "MLOps",
+            "data engineering"
+          ],
+          "salary": null,
+          "family": "data_science",
+          "notes": ""
+        },
+        {
+          "title": "Basketball Analytics Intern (Current Student, Summer 2027)",
+          "team": "Utah Jazz",
+          "league": "NBA",
+          "location": "Salt Lake City, UT; part of summer onsite",
+          "url": "https://www.teamworkonline.com/basketball-jobs/utah-jazz-jobs/utah-jazz/basketball-analytics-intern-current-student-summer-2027-2192629",
+          "status": "verified_listing",
+          "checked_on": "2026-10-30",
+          "requirements": "Current undergraduate/graduate student or equivalent technical proficiency; 1+ years Python/R; 10–12 weeks; model validation, uncertainty and reproducible analysis.",
+          "skills": [
+            "Python",
+            "R",
+            "SQL",
+            "Git",
+            "model validation",
+            "uncertainty",
+            "data cleaning",
+            "communication"
+          ],
+          "salary": null,
+          "family": "analytics_internship",
+          "notes": ""
+        },
+        {
+          "title": "Basketball Data Scientist (New Grad Summer 2027)",
+          "team": "Utah Jazz",
+          "league": "NBA",
+          "location": "Salt Lake City, UT; remote candidates considered",
+          "url": "https://www.teamworkonline.com/basketball-jobs/utah-jazz-jobs/utah-jazz/basketball-data-scientist-new-grad-summer-2027-2192612",
+          "status": "verified_listing",
+          "checked_on": "2026-10-30",
+          "requirements": "Completing studies spring 2027; 2+ years analysis/statistical models in Python/R, 1+ years visualization; basketball familiarity; degree or equivalent.",
+          "skills": [
+            "Python",
+            "R",
+            "statistics",
+            "data visualization",
+            "SQL",
+            "MLOps",
+            "data engineering"
+          ],
+          "salary": null,
+          "family": "data_science",
+          "notes": ""
+        },
+        {
+          "title": "Business Intelligence Analyst, Data Analytics",
+          "team": "Nashville Predators",
+          "league": "NHL",
+          "location": "Nashville, TN",
+          "url": "https://www.teamworkonline.com/hockey-jobs/nashville-predators/nashville-predators/business-intelligence-analyst-data-analytics-2194019",
+          "status": "verified_listing",
+          "checked_on": "2026-10-30",
+          "requirements": "Bachelor degree; 0–12 months sports/arena experience; SQL and reporting, statistical models, commercial analysis across ticketing/marketing/partnerships.",
+          "skills": [
+            "SQL",
+            "Excel",
+            "Tableau",
+            "Python",
+            "R",
+            "data warehousing",
+            "CRM",
+            "predictive modeling"
+          ],
+          "salary": null,
+          "family": "data_analysis",
+          "notes": ""
+        },
+        {
+          "title": "Data Engineer",
+          "team": "Detroit Red Wings",
+          "league": "NHL",
+          "location": "Detroit, MI",
+          "url": "https://www.teamworkonline.com/multiple-properties/ilitch-sports/detroit-red-wings/data-engineer-2190831",
+          "status": "verified_listing",
+          "checked_on": "2026-10-30",
+          "requirements": "Build and modernize hockey data pipelines, maintain integrity/query performance; relational databases, warehouses and cloud; at least one programming language.",
+          "skills": [
+            "SQL",
+            "data modeling",
+            "data warehousing",
+            "Python",
+            "R",
+            "Java",
+            "C#",
+            "Azure",
+            "AWS",
+            "orchestration"
+          ],
+          "salary": null,
+          "family": "data_engineering",
+          "notes": "Full accessible TeamWork description; linked Workday R9426 returned no readable content."
+        },
+        {
+          "title": "Finance and Corporate Strategy Analyst",
+          "team": "Nashville Predators",
+          "league": "NHL",
+          "location": "Nashville, TN",
+          "url": "https://www.teamworkonline.com/hockey-jobs/nashville-predators/nashville-predators/finance-and-corporate-strategy-analyst-2193752",
+          "status": "verified_listing",
+          "checked_on": "2026-10-30",
+          "requirements": "Relevant bachelor degree and 1+ year investment banking/private equity or rigorous finance; financial models, valuation, scenario analysis and presentations.",
+          "skills": [
+            "Excel",
+            "financial modeling",
+            "scenario analysis",
+            "PowerPoint"
+          ],
+          "salary": null,
+          "family": "finance_adjacent",
+          "notes": ""
+        },
+        {
+          "title": "Revenue Optimization Manager",
+          "team": "San Jose Sharks",
+          "league": "NHL",
+          "location": "San Jose, CA",
+          "url": "https://www.teamworkonline.com/hockey-jobs/sharkssports/san-jose-sharks/revenue-optimization-manager-2185627",
+          "status": "verified_listing",
+          "checked_on": "2026-10-30",
+          "requirements": "4+ years analytics/insights/partnership solutions; partnership pricing, inventory valuation and revenue forecasts; relevant degree or equivalent.",
+          "skills": [
+            "Tableau",
+            "KORE",
+            "CRM",
+            "pricing analytics",
+            "forecasting",
+            "stakeholder communication"
+          ],
+          "salary": "USD 70,304–90,000 annually",
+          "family": "business_analytics_adjacent",
+          "notes": "Explicitly not eligible for U.S. work authorization sponsorship."
+        },
+        {
+          "title": "Data Engineer (Basketball Strategy)",
+          "team": "Toronto Tempo",
+          "league": "WNBA",
+          "location": "Toronto, Ontario, Canada",
+          "url": "https://ca.linkedin.com/company/tempobasketball",
+          "status": "employer_announcement_unverified",
+          "checked_on": "2026-10-30",
+          "requirements": "Employer social job announcement only; official careers has future-interest form; full ATS listing not verified.",
+          "skills": [
+            "data pipelines",
+            "tracking data",
+            "scouting data",
+            "data engineering"
+          ],
+          "salary": null,
+          "family": "data_engineering",
+          "notes": ""
+        },
+        {
+          "title": "Data Analyst, Strategy & Analytics",
+          "team": "Phoenix Suns",
+          "league": "NBA",
+          "location": "Phoenix, AZ",
+          "url": "https://www.sports-careers.com/jobs/data-analyst-strategy-analytics-at-phoenix-suns-195611",
+          "status": "search_index_only",
+          "checked_on": "2026-10-30",
+          "requirements": "Third-party search-index lead dated October 20, 2026; official Dayforce job content inaccessible. Do not treat as verified open.",
+          "skills": [],
+          "salary": null,
+          "family": "data_analysis",
+          "notes": ""
+        },
+        {
+          "title": "Data Scientist, Basketball Operations",
+          "team": "Los Angeles Sparks",
+          "league": "WNBA",
+          "location": "Los Angeles, CA",
+          "url": "https://www.reddit.com/r/sports_jobs/comments/1wh0e35/data_scientist_basketball_operations_wnba_united/",
+          "status": "historical_unconfirmed",
+          "checked_on": "2026-10-30",
+          "requirements": "September third-party lead absent current employer board. Not counted as active.",
+          "skills": [],
+          "salary": null,
+          "family": "data_science",
+          "notes": ""
+        },
+        {
+          "title": "Basketball Data Analyst",
+          "team": "Washington Mystics",
+          "league": "WNBA",
+          "location": "Washington, DC",
+          "url": "https://www.reddit.com/r/SportsAnalyticsJobs/comments/1vg2zsh/basketball_data_analyst_mystics_at_washington/",
+          "status": "historical_unconfirmed",
+          "checked_on": "2026-10-30",
+          "requirements": "August third-party lead absent current shared employer board. Not counted as active.",
+          "skills": [],
+          "salary": null,
+          "family": "data_analysis",
+          "notes": ""
+        }
+      ],
+      "sources": [
+        {
+          "title": "NBA official team roster",
+          "url": "https://www.nba.com/teams",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "NBA official team careers directory",
+          "url": "https://careers.nba.com/teams/",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "WNBA official active and future teams",
+          "url": "https://www.wnba.com/teams",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "NHL official team roster",
+          "url": "https://www.nhl.com/info/teams/",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "NHL member-club ATS index",
+          "url": "https://www.teamworkonline.com/hockey-jobs/hockeyjobs/nhl-team-jobs",
+          "checked_on": "2026-10-30"
+        }
+      ],
+      "summary": {
+        "checked_on": "2026-10-30",
+        "scope": "30 NBA, 15 active WNBA and 32 NHL teams. Future WNBA clubs excluded from active-team denominator.",
+        "status_definitions": {
+          "reviewed": "Current accessible team/employer board inspected; absence means no matching title observed in the accessible source, not proof of no openings anywhere.",
+          "blocked": "Official or league-designated career route attempted, but listing content unavailable or unsupported.",
+          "unreviewed": "Not yet completed direct team/employer board inspection."
+        },
+        "coverage": {
+          "blocked": 42,
+          "reviewed": 35
+        },
+        "verified_listings": 9,
+        "limitations": [
+          "Point-in-time audit; opening availability may change.",
+          "Several ATS portals require a browser with JavaScript; search-only leads are explicitly separated.",
+          "Future WNBA clubs Cleveland Sirens (2028), Houston Comets (2027) appear on official roster but are excluded; expansion hiring can still occur under parent organizations.",
+          "This is a North American league scope, not every sports team globally.",
+          "All 77 active team routes were attempted; 42 could not support complete listing review. No claim of exhaustive openings verification."
+        ]
+      }
+    },
+    {
+      "teams": [
+        {
+          "league": "MLS",
+          "team": "Atlanta United",
+          "career_url": "https://www.atlutd.com/community/faq",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "review_scope": "Official career landing or designated ATS attempted; current full list inaccessible",
+          "listing_url": "https://ambgroup.wd1.myworkdayjobs.com/AMBSE",
+          "evidence_notes": "Official club FAQ directs employment to AMBSE Workday; Workday returned zero readable lines. MLS TeamWork collection also scanned, but complete current AMBSE vacancy list could not be verified."
+        },
+        {
+          "league": "MLS",
+          "team": "Austin FC",
+          "career_url": "https://www.austinfc.com/club/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "review_scope": "Official career landing or designated ATS attempted; current full list inaccessible",
+          "listing_url": null,
+          "evidence_notes": "Official careers landing page retrieved; full-time and part-time listings did not render in text. No conclusion about absence of analytics vacancies."
+        },
+        {
+          "league": "MLS",
+          "team": "Charlotte FC",
+          "career_url": "https://www.charlottefootballclub.com/employment",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "review_scope": "Official career landing or designated ATS attempted; current full list inaccessible",
+          "listing_url": null,
+          "evidence_notes": "Official employment page retrieved and View All Jobs followed; Dayforce redirected to an inaccessible page."
+        },
+        {
+          "league": "MLS",
+          "team": "Chicago Fire FC",
+          "career_url": "https://www.chicagofirefc.com/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "review_scope": "Official career landing or designated ATS attempted; current full list inaccessible",
+          "listing_url": null,
+          "evidence_notes": "Official careers landing page retrieved but no current vacancy list rendered. MLS TeamWork collection scanned; official staff directory titles were excluded because they are employees, not job openings."
+        },
+        {
+          "league": "MLS",
+          "team": "FC Cincinnati",
+          "career_url": "https://www.fccincinnati.com/club/careers",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": "https://job-boards.greenhouse.io/fccincinnati",
+          "evidence_notes": "Official careers page designates Greenhouse and TeamWork. Read current Greenhouse index and Data Analyst Intern application detail; 2027 Sprint Season internship."
+        },
+        {
+          "league": "MLS",
+          "team": "Colorado Rapids",
+          "career_url": "https://www.teamworkonline.com/multiple-properties/kroenkesportsjobs/colorado-rapids-",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": null,
+          "evidence_notes": "Kroenke Sports & Entertainment designated TeamWork index retrieved. It displays parent-company jobs across properties; no target Rapids analyst/data-science/data-engineering title in the readable index. Parent-team association can require manual verification."
+        },
+        {
+          "league": "MLS",
+          "team": "Columbus Crew",
+          "career_url": "https://www.columbuscrew.com/club/recruitment",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": "https://www.teamworkonline.com/soccer-jobs/columbus-crew-jobs/columbus-crew",
+          "evidence_notes": "Official careers page links TeamWork and Haslam Sports Group Breezy. Read TeamWork Crew index; no target data role in displayed titles. Breezy parent-company list not reviewed."
+        },
+        {
+          "league": "MLS",
+          "team": "D.C. United",
+          "career_url": null,
+          "checked_on": "2026-10-30",
+          "status": "unreviewed",
+          "review_scope": "Official site/league index checked; team career board remains unreviewed",
+          "listing_url": "https://www.dcunited.com/",
+          "evidence_notes": "Official homepage retrieved and MLS TeamWork collection pages 1–4 inspected; separate team career board not located/fully checked in this pass. No claim that the team has no target vacancy."
+        },
+        {
+          "league": "MLS",
+          "team": "FC Dallas",
+          "career_url": "https://jobs.jobvite.com/fcdallas/job/",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": null,
+          "evidence_notes": "FC Dallas Jobvite current listings retrieved; displayed vacancies were event staff, coaching, housekeeping and ticket sales. No target data title in the readable index."
+        },
+        {
+          "league": "MLS",
+          "team": "Houston Dynamo FC",
+          "career_url": "https://www.houstondynamofc.com/club/careers",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": "https://www.teamworkonline.com/soccer-jobs/houston-dynamo-jobs/houston-dynamo-",
+          "evidence_notes": "Official careers page followed to Dynamo TeamWork index. Readable list contains IT gameday, marketing, accounting and coaching roles; no target data title."
+        },
+        {
+          "league": "MLS",
+          "team": "Sporting Kansas City",
+          "career_url": "https://www.teamworkonline.com/soccer-jobs/mls/sporting-kansas-city",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": null,
+          "evidence_notes": "Readable designated TeamWork club index contains four marketing/sales titles. Data Analyst, Data Engineer and Data Scientist leads appeared on secondary sites from two months earlier; no accessible current official detail verified, so excluded from current jobs."
+        },
+        {
+          "league": "MLS",
+          "team": "LA Galaxy",
+          "career_url": "https://www.lagalaxy.com/club/contact",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "review_scope": "Official career landing or designated ATS attempted; current full list inaccessible",
+          "listing_url": "https://www.aegworldwide.com/careers",
+          "evidence_notes": "Official contact page directs employment to AEG careers; AEG landing page retrieved but complete US job search not reviewed. MLS TeamWork collection scanned separately."
+        },
+        {
+          "league": "MLS",
+          "team": "Los Angeles Football Club",
+          "career_url": "https://www.lafc.com/careers",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": "https://www.teamworkonline.com/soccer-jobs/los-angeles-football-club/los-angeles-football-club/part-time-associate-data-strategy-2189378",
+          "evidence_notes": "Official careers landing retrieved; dynamic job list missing in text. MLS TeamWork collection and detailed Associate, Data Strategy posting retrieved; 10–30 hours/week and hybrid."
+        },
+        {
+          "league": "MLS",
+          "team": "Inter Miami CF",
+          "career_url": "https://www.intermiamicf.com/club/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "review_scope": "Official career landing or designated ATS attempted; current full list inaccessible",
+          "listing_url": null,
+          "evidence_notes": "Official careers landing page retrieved but current list did not render. Secondary index mentions Business Intelligence internships; official detail not verified and excluded."
+        },
+        {
+          "league": "MLS",
+          "team": "Minnesota United FC",
+          "career_url": "https://www.mnufc.com/club/careers",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": null,
+          "evidence_notes": "Official careers page displays full-time and part-time titles and Dayforce application links; no target data title displayed. Dayforce detail not individually reviewed."
+        },
+        {
+          "league": "MLS",
+          "team": "CF Montréal",
+          "career_url": "https://en.cfmontreal.com/club/careers",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": null,
+          "evidence_notes": "Official careers page displays current job listings with SmartRecruiters links; no target data title in readable page. Individual non-target postings not opened."
+        },
+        {
+          "league": "MLS",
+          "team": "Nashville SC",
+          "career_url": "https://www.nashvillesc.com/club/careers",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": "https://jobs.dayforcehcm.com/en-US/nashvillesc/CANDIDATEPORTAL",
+          "evidence_notes": "Official careers landing directs to Dayforce, which rendered search UI without listings. MLS/designated TeamWork index and three relevant detail pages retrieved; applications require TeamWork sign-in."
+        },
+        {
+          "league": "MLS",
+          "team": "New England Revolution",
+          "career_url": "https://www.revolutionsoccer.net/club/contact-us",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "review_scope": "Official career landing or designated ATS attempted; current full list inaccessible",
+          "listing_url": "https://www.thekraftgroup.com/careers",
+          "evidence_notes": "Official contact page directs internships to Kraft Group careers. Parent careers landing retrieved, but complete Paycom list not reviewed. No absence-of-vacancy inference."
+        },
+        {
+          "league": "MLS",
+          "team": "Red Bull New York",
+          "career_url": "https://jobs.redbull.com/en/results?functions=6",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "review_scope": "Official career landing or designated ATS attempted; current full list inaccessible",
+          "listing_url": null,
+          "evidence_notes": "Official Red Bull careers endpoint retrieved but job results did not render in text; current team-specific vacancy list not verifiable. Current club name follows official 2026 MLS directory."
+        },
+        {
+          "league": "MLS",
+          "team": "New York City FC",
+          "career_url": "https://www.newyorkcityfc.com/team/careers",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": null,
+          "evidence_notes": "Official careers page links TeamWork. First Team Performance Analyst full detail retrieved; role primarily performance/video analysis and database accuracy, not a pure data-science role."
+        },
+        {
+          "league": "MLS",
+          "team": "Orlando City SC",
+          "career_url": "https://www.orlandocitysc.com/club/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "review_scope": "Official career landing or designated ATS attempted; current full list inaccessible",
+          "listing_url": null,
+          "evidence_notes": "Shared Orlando City/Pride official careers landing retrieved; vacancy list did not render. MLS/NWSL TeamWork collection scanned as a secondary coverage check."
+        },
+        {
+          "league": "MLS",
+          "team": "Philadelphia Union",
+          "career_url": "https://www.teamworkonline.com/soccer-jobs/mls/philadelphia-union",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": null,
+          "evidence_notes": "Readable TeamWork team index and Senior Sport & Data Scientist detail retrieved. Strong hybrid sport-science/data-engineering remit."
+        },
+        {
+          "league": "MLS",
+          "team": "Portland Timbers",
+          "career_url": "https://www.timbers.com/jobs",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": "https://www.teamworkonline.com/soccer-jobs/mls/mls-league-office-soccer-united-marketing?employment_opportunity_search%5Bcategory_id%5D=&employment_opportunity_search%5Borganization_id%5D=28746&employment_opportunity_search%5Bquery%5D=",
+          "evidence_notes": "Official jobs page followed to team-filtered MLS TeamWork index; displayed camps coach and fan-experience roles, no target data title."
+        },
+        {
+          "league": "MLS",
+          "team": "Real Salt Lake",
+          "career_url": "https://www.rsl.com/club/jobs",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "review_scope": "Official career landing or designated ATS attempted; current full list inaccessible",
+          "listing_url": null,
+          "evidence_notes": "Official careers landing retrieved but vacancy list did not render. MLS TeamWork collection inspected; no complete team-specific board verified."
+        },
+        {
+          "league": "MLS",
+          "team": "San Diego FC",
+          "career_url": "https://www.sandiegofc.com/contact",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": "https://www.teamworkonline.com/soccer-jobs/san-diego-fc-careers/san-diego-fc",
+          "evidence_notes": "Official contact careers link followed to TeamWork index; six displayed roles were marketing, security, academy performance, accounting, retail and ambassadors, with no target data title."
+        },
+        {
+          "league": "MLS",
+          "team": "San Jose Earthquakes",
+          "career_url": "https://sjearthquakes.isolvedhire.com/jobs/",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": null,
+          "evidence_notes": "Club-branded iSolvedHire index retrieved but returned only job alerts; MLS TeamWork collection concurrently has non-target Earthquakes titles. Multiple-board mismatch means no assertion of zero current vacancies."
+        },
+        {
+          "league": "MLS",
+          "team": "Seattle Sounders FC",
+          "career_url": "https://www.soundersfc.com/club/employment",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": "https://job-boards.greenhouse.io/seattlesoundersfc",
+          "evidence_notes": "Official employment landing retrieved; current joint Sounders/Reign Greenhouse index also read. Five displayed jobs include marketing automation, recruiter and educational internships; no target analyst/scientist/engineer title."
+        },
+        {
+          "league": "MLS",
+          "team": "St. Louis CITY SC",
+          "career_url": "https://www.stlcitysc.com/employment-opportunities/",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "review_scope": "Official career landing or designated ATS attempted; current full list inaccessible",
+          "listing_url": null,
+          "evidence_notes": "Official employment page retrieved but only heading rendered; current job list is dynamic. MLS TeamWork collection inspected separately."
+        },
+        {
+          "league": "MLS",
+          "team": "Toronto FC",
+          "career_url": "https://www.mlse.com/our-company/join-our-team",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "review_scope": "Official career landing or designated ATS attempted; current full list inaccessible",
+          "listing_url": "https://mlse.wd3.myworkdayjobs.com/MLSE",
+          "evidence_notes": "Official MLSE careers landing and linked Workday endpoint retrieved; Workday returned no readable vacancy list. MLSE official team source confirms Toronto FC is in portfolio."
+        },
+        {
+          "league": "MLS",
+          "team": "Vancouver Whitecaps FC",
+          "career_url": "https://www.whitecapsfc.com/club/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "review_scope": "Official career landing or designated ATS attempted; current full list inaccessible",
+          "listing_url": null,
+          "evidence_notes": "Official careers page retrieved with organization/inclusion text, but no readable vacancy list rendered. No conclusion about analytics vacancies."
+        },
+        {
+          "league": "NWSL",
+          "team": "Angel City FC",
+          "career_url": "https://job-boards.greenhouse.io/wfclainc",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": "https://job-boards.greenhouse.io/wfclainc/jobs/6226220004",
+          "evidence_notes": "Current Angel City Greenhouse index and Data Analytics Intern application detail retrieved; same role also in designated NWSL TeamWork collection."
+        },
+        {
+          "league": "NWSL",
+          "team": "Bay FC",
+          "career_url": "https://bayfc.com/contact-us/",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": "https://www.teamworkonline.com/soccer-jobs/nwslsoccer/Bay-FC-Jobs",
+          "evidence_notes": "Official contact page followed to TeamWork. Team index omits Manager, Business Insights & Analytics while league index and live detail still display it; vacancy status conflict recorded in jobs."
+        },
+        {
+          "league": "NWSL",
+          "team": "Boston Legacy FC",
+          "career_url": "https://bostonlegacyfc.com/pages/careers",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": "https://ats.rippling.com/nwsl-boston-open-positions/jobs",
+          "evidence_notes": "Official careers landing retrieved and Boston Legacy Rippling index read. Eight displayed titles, no target analyst/data scientist/data engineer role."
+        },
+        {
+          "league": "NWSL",
+          "team": "Chicago Stars FC",
+          "career_url": "https://chicagostars.com/careers/",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": "https://www.teamworkonline.com/soccer-jobs/nwslsoccer/chicago-red-stars-29563",
+          "evidence_notes": "Official careers URL redirects to designated TeamWork board under legacy chicago-red-stars-29563 slug; readable page says no job results."
+        },
+        {
+          "league": "NWSL",
+          "team": "Denver Summit FC",
+          "career_url": "https://www.denversummitfc.com/contact-us/",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": "https://www.teamworkonline.com/soccer-jobs/denver-summit-fc-jobs/denver-summit-fc-jobs",
+          "evidence_notes": "Official Careers link followed to current Denver Summit TeamWork board; displayed Director of Premium Sales only, no target data title."
+        },
+        {
+          "league": "NWSL",
+          "team": "Houston Dash",
+          "career_url": "https://www.houstondynamofc.com/club/careers",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": "https://www.teamworkonline.com/soccer-jobs/houston-dynamo-jobs/houston-dash",
+          "evidence_notes": "Official shared careers page followed to dedicated Dash TeamWork board; displayed athletic training educational internship only."
+        },
+        {
+          "league": "NWSL",
+          "team": "Kansas City Current",
+          "career_url": "https://www.kansascitycurrent.com/club#careers",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": "https://www.teamworkonline.com/soccer-jobs/kc-current-jobs/kc-woso",
+          "evidence_notes": "Official club Careers section followed to current KC Current TeamWork board; no target analyst/data scientist/data engineer title in readable list."
+        },
+        {
+          "league": "NWSL",
+          "team": "Gotham FC",
+          "career_url": "https://www.teamworkonline.com/soccer-jobs/nwslsoccer/gotham-fc-jobs",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": null,
+          "evidence_notes": "Official team homepage Careers link followed to TeamWork; five displayed sales, partnership, therapist and supporter-relations roles, no target data title."
+        },
+        {
+          "league": "NWSL",
+          "team": "North Carolina Courage",
+          "career_url": "https://www.teamworkonline.com/soccer-jobs/nwslsoccer/north-carolina-courage-",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": null,
+          "evidence_notes": "Official team homepage Jobs link followed to TeamWork; seven displayed operations, merchandise, marketing and IT internship titles, no target data title."
+        },
+        {
+          "league": "NWSL",
+          "team": "Orlando Pride",
+          "career_url": "https://www.orlandocitysc.com/club/careers",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "review_scope": "Official career landing or designated ATS attempted; current full list inaccessible",
+          "listing_url": null,
+          "evidence_notes": "Shared Orlando City/Pride careers landing retrieved; current vacancy list did not render. NWSL TeamWork collection scanned as secondary coverage."
+        },
+        {
+          "league": "NWSL",
+          "team": "Portland Thorns FC",
+          "career_url": "https://www.thorns.com/careers",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": "https://www.teamworkonline.com/multiple-properties/raj-sports-jobs/portland-thorns-fc",
+          "evidence_notes": "Official careers page followed to current RAJ Sports Thorns board; Sports Scientist displayed, but that is a sports-performance role rather than requested data scientist title. Not counted as target role."
+        },
+        {
+          "league": "NWSL",
+          "team": "Racing Louisville FC",
+          "career_url": "https://www.racingloufc.com/careers/",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": "https://www.teamworkonline.com/soccer-jobs/soccer-holdings-llc-jobs/soccer-holdings-llc-jobs",
+          "evidence_notes": "Official careers page followed to Soccer Holdings TeamWork board; retail, group sales, academy performance internship displayed, no target data title."
+        },
+        {
+          "league": "NWSL",
+          "team": "San Diego Wave FC",
+          "career_url": "https://sandiegowavefc.com/careers/",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": "https://www.teamworkonline.com/soccer-jobs/nwslsoccer/nwsl-sandiego",
+          "evidence_notes": "Official careers page followed to TeamWork; four displayed retail, membership, executive-assistant and rehabilitation titles, no target data title."
+        },
+        {
+          "league": "NWSL",
+          "team": "Seattle Reign FC",
+          "career_url": "https://www.soundersfc.com/club/employment",
+          "checked_on": "2026-10-30",
+          "status": "reviewed",
+          "review_scope": "Readable current index and/or detailed role checked; see evidence limits",
+          "listing_url": "https://job-boards.greenhouse.io/seattlesoundersfc",
+          "evidence_notes": "Official Reign homepage Careers link points to Sounders employment; joint Sounders/Reign Greenhouse index read. No target analyst/scientist/engineer title displayed."
+        },
+        {
+          "league": "NWSL",
+          "team": "Utah Royals FC",
+          "career_url": "https://www.rsl.com/club/jobs",
+          "checked_on": "2026-10-30",
+          "status": "blocked",
+          "review_scope": "Official career landing or designated ATS attempted; current full list inaccessible",
+          "listing_url": null,
+          "evidence_notes": "NWSL official team directory points to RSL domain. Shared RSL careers landing retrieved but current list did not render; NWSL collection inspected separately."
+        },
+        {
+          "league": "NWSL",
+          "team": "Washington Spirit",
+          "career_url": null,
+          "checked_on": "2026-10-30",
+          "status": "unreviewed",
+          "review_scope": "Official site/league index checked; team career board remains unreviewed",
+          "listing_url": "https://washingtonspirit.com/",
+          "evidence_notes": "Official homepage retrieved; guessed /careers/ endpoint inaccessible. NWSL collection pages 1–2 inspected, but separate official team career board not located/fully verified. No absence-of-vacancy conclusion."
+        }
+      ],
+      "jobs": [
+        {
+          "title": "Data Analyst Intern",
+          "team": "FC Cincinnati",
+          "league": "MLS",
+          "location": "Cincinnati, OH",
+          "url": "https://job-boards.greenhouse.io/fccincinnati/jobs/8105405003",
+          "source_url": "https://www.teamworkonline.com/soccer-jobs/fc-cincinnati/fc-cincinnati/data-analyst-intern-2197529",
+          "status": "application_form_verified",
+          "role_family": "Analyst",
+          "seniority": "Internship",
+          "skills": [
+            "Python",
+            "R",
+            "SQL",
+            "APIs",
+            "Tableau",
+            "Power BI",
+            "Event data",
+            "Tracking data",
+            "Stakeholder communication"
+          ],
+          "requirements": "Pursuing a quantitative/sports-related bachelor's degree; prior data/statistics/sports experience. Analyze event and tracking data and prepare pre/post-match and opposition reports. About 15 hours/week for February–April 2027.",
+          "salary": "Paid internship; amount not stated",
+          "evidence_notes": "Official careers page designates Greenhouse; Greenhouse detail includes application form. No application submitted.",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Data Analyst",
+          "team": "Nashville SC",
+          "league": "MLS",
+          "location": "Nashville, TN",
+          "url": "https://www.teamworkonline.com/soccer-jobs/nashville-sc/nashville-sc/data-analyst-2195561",
+          "status": "listed_detail_accessible",
+          "role_family": "Analyst",
+          "seniority": "Entry level (board label)",
+          "skills": [
+            "Python",
+            "SQL",
+            "APIs",
+            "Git",
+            "Data pipelines",
+            "Statistical modeling",
+            "Machine learning",
+            "Data visualization",
+            "Soccer event data"
+          ],
+          "requirements": "Quantitative degree or equivalent demonstrated experience; Python analysis, statistics/ML and visualization. Build reproducible workflows and recurring match reporting, answer sporting, scouting and recruitment questions.",
+          "salary": null,
+          "evidence_notes": "Current MLS index and full detail visible; Apply Now leads to TeamWork sign-in, so accepting applications beyond sign-in not verified. Club's own landing points to Dayforce, whose listing content was not readable.",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Business Analyst Intern (Spring 2027)",
+          "team": "Nashville SC",
+          "league": "MLS",
+          "location": "Nashville, TN; regular onsite attendance",
+          "url": "https://www.teamworkonline.com/soccer-jobs/nashville-sc/nashville-sc/business-analyst-intern-spring-2027-2197582",
+          "status": "listed_detail_accessible",
+          "role_family": "Analyst",
+          "seniority": "Internship",
+          "skills": [
+            "Python",
+            "R",
+            "SQL",
+            "Tableau",
+            "Power BI",
+            "Excel",
+            "Salesforce",
+            "Data quality",
+            "Dashboards"
+          ],
+          "requirements": "Must be enrolled at an accredited institution and receive academic credit. Support dashboards, KPIs, data retrieval, Salesforce deduplication and daily data hygiene.",
+          "salary": "Unpaid; college credit only",
+          "evidence_notes": "Full detail and current MLS index visible; Apply Now present; application acceptance not independently confirmed.",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Analyst, Lifecycle Marketing",
+          "team": "Nashville SC",
+          "league": "MLS",
+          "location": "Nashville, TN",
+          "url": "https://www.teamworkonline.com/soccer-jobs/nashville-sc/nashville-sc/analyst-lifecycle-marketing-2196104",
+          "status": "listed_detail_accessible",
+          "role_family": "Analyst",
+          "seniority": "Entry level (board label)",
+          "skills": [
+            "Audience segmentation",
+            "A/B testing",
+            "Campaign measurement",
+            "CRM",
+            "Email/SMS platforms",
+            "Salesforce Marketing Cloud"
+          ],
+          "requirements": "Working knowledge of email/SMS platforms and audience segmentation. Monitor conversions, engagement and revenue; execute campaign tests and collaborate with business analytics.",
+          "salary": null,
+          "evidence_notes": "Current MLS index and full detail visible; role is marketing analytics adjacent and does not list Python/SQL.",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "First Team Performance Analyst",
+          "team": "New York City FC",
+          "league": "MLS",
+          "location": "Orangeburg, NY",
+          "url": "https://www.teamworkonline.com/soccer-jobs/nycfc/nyc-fc/first-team-performance-analyst-2197020",
+          "status": "listed_detail_accessible",
+          "role_family": "Analyst",
+          "seniority": "Manager (board label)",
+          "skills": [
+            "Performance analysis",
+            "Video analysis",
+            "Hudl Studio",
+            "Data collection",
+            "Database accuracy",
+            "Opponent scouting",
+            "Communication"
+          ],
+          "requirements": "Support recording, tagging and video analysis; organize player performance/match statistics, maintain records and prepare opponent scouting reports. This is mainly a performance/video role.",
+          "salary": "$70,000–$75,000/year",
+          "evidence_notes": "Official NYCFC careers page designates TeamWork. Current MLS index and full detail with Apply Now visible; no application submitted.",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Senior Sport & Data Scientist",
+          "team": "Philadelphia Union",
+          "league": "MLS",
+          "location": "Chester, PA",
+          "url": "https://www.teamworkonline.com/soccer-jobs/mls/philadelphia-union/senior-sport-data-scientist-2191343",
+          "status": "listed_detail_accessible",
+          "role_family": "Data Scientist",
+          "seniority": "Senior; 4+ years",
+          "skills": [
+            "Python",
+            "SQL",
+            "Databricks",
+            "AWS",
+            "Power BI",
+            "APIs",
+            "Data pipelines",
+            "Lakehouse",
+            "Machine learning",
+            "Data quality",
+            "Player tracking"
+          ],
+          "requirements": "4+ years in sport/data science or sports analytics; quantitative/sport-science degree. Integrate athlete monitoring and club data, maintain lakehouse pipelines and develop statistical/ML models and performance dashboards.",
+          "salary": null,
+          "evidence_notes": "Readable designated team index and detailed posting with Apply Now visible. Application acceptance not verified.",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "PART-TIME - Associate, Data Strategy",
+          "team": "Los Angeles Football Club",
+          "league": "MLS",
+          "location": "Los Angeles, CA; hybrid",
+          "url": "https://www.teamworkonline.com/soccer-jobs/los-angeles-football-club/los-angeles-football-club/part-time-associate-data-strategy-2189378",
+          "status": "listed_detail_accessible",
+          "role_family": "Analyst",
+          "seniority": "Part time; 10–30 hours/week",
+          "skills": [
+            "Tableau",
+            "Spreadsheets",
+            "Data cleaning",
+            "Audience segmentation",
+            "Consumer surveys",
+            "Business dashboards",
+            "Presentation",
+            "HTML/CSS (plus)"
+          ],
+          "requirements": "Pursuing or earned four-year degree; experience with presentations and visualization. Analyze data warehouse and Tableau reporting for pricing/inventory, fan segmentation and commercial insights.",
+          "salary": "$19.50/hour",
+          "evidence_notes": "Current MLS collection and full detailed posting visible. At least two in-office days generally required; posting states work authorization without employer visa sponsorship.",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Data Analytics Intern",
+          "team": "Angel City FC",
+          "league": "NWSL",
+          "location": "Santa Monica/Los Angeles, CA; hybrid",
+          "url": "https://job-boards.greenhouse.io/wfclainc/jobs/6226220004",
+          "source_url": "https://www.teamworkonline.com/soccer-jobs/nwslsoccer/angel-city-fc/data-analytics-intern-2195045",
+          "status": "application_form_verified",
+          "role_family": "Analyst",
+          "seniority": "Internship",
+          "skills": [
+            "SQL",
+            "Tableau",
+            "Dashboard testing",
+            "Documentation",
+            "Ticketing analytics",
+            "Forecasting",
+            "Communication"
+          ],
+          "requirements": "Current students, recent graduates or equivalent experience. Support ticket-pricing/forecasting reports, code review, dashboard tests, business KPIs and communication with ticket sales. About 20–25 hours/week, 2–3 office days.",
+          "salary": "$19/hour",
+          "evidence_notes": "Current Angel City Greenhouse board and full application form retrieved; same role in current NWSL TeamWork index. No application submitted.",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Manager, Business Insights & Analytics",
+          "team": "Bay FC",
+          "league": "NWSL",
+          "location": "San Francisco, CA",
+          "url": "https://www.teamworkonline.com/soccer-jobs/nwslsoccer/Bay-FC-Jobs/manager-business-insights-analytics-2196067",
+          "status": "listing_status_conflict",
+          "role_family": "Analyst",
+          "seniority": "Manager; 5–7 years",
+          "skills": [
+            "SQL",
+            "Python",
+            "R",
+            "Tableau",
+            "Audience segmentation",
+            "A/B testing",
+            "CRM",
+            "Fan lifetime value",
+            "Executive communication"
+          ],
+          "requirements": "5–7 years in analytics/business/consumer insights; SQL plus Python or R and visualization. Lead fan segmentation, lifecycle insights, measurement and executive-ready commercial recommendations.",
+          "salary": "Starting salary $120,000/year; discretionary bonus eligibility",
+          "evidence_notes": "NWSL current collection and full detail with Apply Now visible; Apply Now reaches sign-in. Official-linked Bay FC team index omitted this role when checked. Treat as a lead needing confirmation, not verified accepting.",
+          "checked_on": "2026-10-30"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official MLS 2026 competition guidelines and 30-team roster",
+          "url": "https://www.mlssoccer.com/news/2026-mls-competition-guidelines",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official MLS club directory",
+          "url": "https://www.mlssoccer.com/clubs/",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official NWSL 16-team directory",
+          "url": "https://www.nwslsoccer.com/teams/index",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Designated MLS TeamWork collection (all four readable pages reviewed)",
+          "url": "https://www.teamworkonline.com/soccer-jobs/mls/mls-league-office-soccer-united-marketing",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Designated NWSL TeamWork collection (both readable pages reviewed)",
+          "url": "https://www.teamworkonline.com/soccer-jobs/nwslsoccer/nwsl-jobs",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.atlutd.com/community/faq",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://ambgroup.wd1.myworkdayjobs.com/AMBSE",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.austinfc.com/club/careers",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.charlottefootballclub.com/employment",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.chicagofirefc.com/careers",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.fccincinnati.com/club/careers",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://job-boards.greenhouse.io/fccincinnati",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/multiple-properties/kroenkesportsjobs/colorado-rapids-",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.columbuscrew.com/club/recruitment",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/columbus-crew-jobs/columbus-crew",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.dcunited.com/",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://jobs.jobvite.com/fcdallas/job/",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.houstondynamofc.com/club/careers",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/houston-dynamo-jobs/houston-dynamo-",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/mls/sporting-kansas-city",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.lagalaxy.com/club/contact",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.aegworldwide.com/careers",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.lafc.com/careers",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/los-angeles-football-club/los-angeles-football-club/part-time-associate-data-strategy-2189378",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.intermiamicf.com/club/careers",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.mnufc.com/club/careers",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://en.cfmontreal.com/club/careers",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.nashvillesc.com/club/careers",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://jobs.dayforcehcm.com/en-US/nashvillesc/CANDIDATEPORTAL",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.revolutionsoccer.net/club/contact-us",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.thekraftgroup.com/careers",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://jobs.redbull.com/en/results?functions=6",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.newyorkcityfc.com/team/careers",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.orlandocitysc.com/club/careers",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/mls/philadelphia-union",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.timbers.com/jobs",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/mls/mls-league-office-soccer-united-marketing?employment_opportunity_search%5Bcategory_id%5D=&employment_opportunity_search%5Borganization_id%5D=28746&employment_opportunity_search%5Bquery%5D=",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.rsl.com/club/jobs",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.sandiegofc.com/contact",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/san-diego-fc-careers/san-diego-fc",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://sjearthquakes.isolvedhire.com/jobs/",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.soundersfc.com/club/employment",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://job-boards.greenhouse.io/seattlesoundersfc",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.stlcitysc.com/employment-opportunities/",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.mlse.com/our-company/join-our-team",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://mlse.wd3.myworkdayjobs.com/MLSE",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.whitecapsfc.com/club/careers",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://job-boards.greenhouse.io/wfclainc",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://job-boards.greenhouse.io/wfclainc/jobs/6226220004",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://bayfc.com/contact-us/",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/nwslsoccer/Bay-FC-Jobs",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://bostonlegacyfc.com/pages/careers",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://ats.rippling.com/nwsl-boston-open-positions/jobs",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://chicagostars.com/careers/",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/nwslsoccer/chicago-red-stars-29563",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.denversummitfc.com/contact-us/",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/denver-summit-fc-jobs/denver-summit-fc-jobs",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/houston-dynamo-jobs/houston-dash",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.kansascitycurrent.com/club#careers",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/kc-current-jobs/kc-woso",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/nwslsoccer/gotham-fc-jobs",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/nwslsoccer/north-carolina-courage-",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.thorns.com/careers",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/multiple-properties/raj-sports-jobs/portland-thorns-fc",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.racingloufc.com/careers/",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/soccer-holdings-llc-jobs/soccer-holdings-llc-jobs",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://sandiegowavefc.com/careers/",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/nwslsoccer/nwsl-sandiego",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://washingtonspirit.com/",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://job-boards.greenhouse.io/fccincinnati/jobs/8105405003",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/fc-cincinnati/fc-cincinnati/data-analyst-intern-2197529",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/nashville-sc/nashville-sc/data-analyst-2195561",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/nashville-sc/nashville-sc/business-analyst-intern-spring-2027-2197582",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/nashville-sc/nashville-sc/analyst-lifecycle-marketing-2196104",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/nycfc/nyc-fc/first-team-performance-analyst-2197020",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/mls/philadelphia-union/senior-sport-data-scientist-2191343",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/nwslsoccer/angel-city-fc/data-analytics-intern-2195045",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Official team, parent-company or designated ATS career evidence",
+          "url": "https://www.teamworkonline.com/soccer-jobs/nwslsoccer/Bay-FC-Jobs/manager-business-insights-analytics-2196067",
+          "checked_on": "2026-10-30"
+        }
+      ],
+      "summary": {
+        "checked_on": "2026-10-30",
+        "scope": "US/Canada MLS and NWSL 2026 top-division club roster, 30 MLS + 16 NWSL. Not all sports teams globally. Snapshot of readable official pages/designated ATSs; dynamic, account-gated and unresolved team boards explicitly marked.",
+        "team_count": 46,
+        "reviewed": 29,
+        "blocked": 15,
+        "unreviewed": 2,
+        "detailed_target_roles": 9,
+        "application_form_verified": 2,
+        "listed_detail_accessible": 6,
+        "listing_status_conflict": 1,
+        "no_false_completeness": "Reviewed means the stated readable index/detail was inspected, not a guarantee of complete organizational vacancy coverage or ongoing acceptance. No negative vacancy conclusion for blocked/unreviewed pages. Sources were checked using the stated user-local date; postings can change.",
+        "excluded_leads": [
+          "Sporting Kansas City data analyst, data engineer, data scientist: secondary-site leads from about two months before check, not verified current on official detail.",
+          "Boston Legacy older CRM/data analyst leads: not in readable current Rippling index.",
+          "Inter Miami Business Intelligence internships: secondary index leads; official detail not accessible.",
+          "League-office roles are separate employers, excluded from team job count.",
+          "Sports Scientist performance roles at Portland Thorns and Bay FC excluded from requested data-scientist title count."
+        ],
+        "portfolio_signal": "Common evidence across detailed jobs favors Python/SQL, reproducible ingestion, data quality, version control, temporal model validation, practical dashboards, and concise reports that answer a coaching or business decision.",
+        "dataset_recommendation": {
+          "name": "StatsBomb Open Data",
+          "repository": "https://github.com/hudl/open-data",
+          "old_url_redirect": "https://github.com/statsbomb/open-data",
+          "license": "Custom StatsBomb Open Data User Agreement (LICENSE.pdf), not MIT/CC0.",
+          "license_url": "https://github.com/hudl/open-data/blob/master/LICENSE.pdf",
+          "verified_terms": "Official repository README invites research/public analysis and asks for StatsBomb source attribution and logo. Official Hudl blog states the standard license is noncommercial, for fan analysis and academic research.",
+          "terms_source": "https://www.hudl.com/blog/invincibles-project-classics-data-pack-1",
+          "limitation": "Exact PDF agreement could not be extracted: web rejects octet-stream and GitHub connector rejects binary/non-UTF8. Do not assert unrestricted raw-data redistribution. Prefer runtime downloads, ignore raw data in Git, show attribution/logo, keep source-code license separate, and inspect exact PDF before distributing underlying data.",
+          "project_fit": "Event JSON with shot xG supports Python/SQL ingestion, QA, match reports, opponent scouting and model calibration. Selected competitions/seasons only; not a comprehensive live MLS/NWSL feed."
+        }
+      }
+    }
+  ],
+  "catchup": {
+    "checked_on": "2026-10-30",
+    "teams": [
+      {
+        "league": "MLS",
+        "team": "D.C. United",
+        "career_url": "https://www.teamworkonline.com/jobs-in-sports?employment_opportunity_search%5Bquery%5D=D.C.+United&commit=Search",
+        "listing_url": "https://www.teamworkonline.com/soccer-jobs/dc-united/d-c--united",
+        "checked_on": "2026-10-30",
+        "status": "reviewed",
+        "review_scope": "Official homepage footer Careers link inspected through rendered browser, then designated TeamWork search and direct employer board opened/read.",
+        "evidence_notes": "Official homepage footer links to a TeamWork keyword search. Its D.C. United organization link resolves to the direct club board (note double hyphen in d-c--united slug). Nine visible openings, including one DC Power role; none is a core analyst/data scientist/data engineer listing. Academy Scouting Intern inspected and retained separately as adjacent scouting opportunity, not a core target role.",
+        "evidence": [
+          "https://www.dcunited.com/",
+          "https://www.teamworkonline.com/jobs-in-sports?employment_opportunity_search%5Bquery%5D=D.C.+United&commit=Search",
+          "https://www.teamworkonline.com/soccer-jobs/dc-united/d-c--united"
+        ]
+      },
+      {
+        "league": "NWSL",
+        "team": "Washington Spirit",
+        "career_url": "https://www.teamworkonline.com/soccer-jobs/nwslsoccer/washington-spirit",
+        "listing_url": "https://www.teamworkonline.com/soccer-jobs/nwslsoccer/washington-spirit",
+        "checked_on": "2026-10-30",
+        "status": "reviewed",
+        "review_scope": "Official homepage footer Careers link inspected in rendered browser; linked employer TeamWork board read.",
+        "evidence_notes": "Board lists three jobs: Account Executive Membership Sales, Matchday Retail Assistant, Director Partnership Development. No matching target role visible in this board; this is not a claim about every organization vacancy or future openings.",
+        "evidence": [
+          "https://washingtonspirit.com/",
+          "https://www.teamworkonline.com/soccer-jobs/nwslsoccer/washington-spirit"
+        ]
+      }
+    ],
+    "jobs": [],
+    "adjacent_jobs": [
+      {
+        "league": "MLS",
+        "team": "D.C. United",
+        "title": "Academy Scouting Department Intern - Spring 2027",
+        "location": "United States (remote)",
+        "url": "https://www.teamworkonline.com/soccer-jobs/dc-united/d-c--united/academy-scouting-department-intern-spring-2027-2197439",
+        "checked_on": "2026-10-30",
+        "status": "verified_accessible_listing",
+        "scope": "adjacent_scouting_not_core_data_role",
+        "salary": "Unpaid; college credit",
+        "requirements": "Sports-related bachelor's study/degree and interest in coaching/scouting; willingness to perform data entry/analysis, review video and produce scouting reports. Office/Docs/computer proficiency desired.",
+        "skills": [
+          "scouting reports",
+          "video review",
+          "data entry",
+          "Microsoft Office",
+          "Google Docs"
+        ],
+        "notes": "Approximately 5–10 hours weekly; January 2–June 1 2027; apply by November 23 2026. No specific SQL/Python/statistical-modeling requirement. Exclude from core data-role counts."
+      }
+    ],
+    "sources": [
+      {
+        "title": "D.C. United official homepage (rendered footer Careers link)",
+        "url": "https://www.dcunited.com/",
+        "checked_on": "2026-10-30"
+      },
+      {
+        "title": "D.C. United employer TeamWork board",
+        "url": "https://www.teamworkonline.com/soccer-jobs/dc-united/d-c--united",
+        "checked_on": "2026-10-30"
+      },
+      {
+        "title": "Washington Spirit official homepage (rendered footer Careers link)",
+        "url": "https://washingtonspirit.com/",
+        "checked_on": "2026-10-30"
+      },
+      {
+        "title": "Washington Spirit employer TeamWork board",
+        "url": "https://www.teamworkonline.com/soccer-jobs/nwslsoccer/washington-spirit",
+        "checked_on": "2026-10-30"
+      }
+    ],
+    "summary": {
+      "replaces_team_records": [
+        "D.C. United",
+        "Washington Spirit"
+      ],
+      "new_reviewed": 2,
+      "new_blocked": 0,
+      "remaining_unreviewed_after_merge": 0,
+      "new_core_jobs": 0,
+      "new_adjacent_jobs": 1,
+      "note": "Merge these records into work/research_soccer.json, replacing only matching team records. Do not append duplicate teams. The underlying soccer inventory is otherwise unchanged."
+    }
+  }
+}

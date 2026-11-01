@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sideline Lab: reproducible NFL situational scouting, honest model evaluation, and a sourced sports analytics career tracker.">
+  <meta name="color-scheme" content="dark light">
+  <title>Sideline Lab · Sports analytics</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to dashboard</a>
+  <aside class="sidebar">
+    <a class="brand" href="#scouting" aria-label="Sideline Lab home"><span class="brand-mark">S<span>L</span></span><span>SIDELINE<br><b>LAB</b></span></a>
+    <p class="sidebar-label">THE ANALYTICS WORKSPACE</p>
+    <nav class="tablist" role="tablist" aria-label="Dashboard views">
+      <button id="tab-scouting" role="tab" aria-selected="true" aria-controls="scouting" tabindex="0" data-tab="scouting"><span aria-hidden="true">◫</span> Scouting <span class="nav-arrow" aria-hidden="true">↗</span></button>
+      <button id="tab-model" role="tab" aria-selected="false" aria-controls="model" tabindex="-1" data-tab="model"><span aria-hidden="true">⌁</span> Model evaluation</button>
+      <button id="tab-careers" role="tab" aria-selected="false" aria-controls="careers" tabindex="-1" data-tab="careers"><span aria-hidden="true">▤</span> Careers</button>
+    </nav>
+    <div class="sidebar-bottom"><span class="live-dot"></span> PUBLIC DATA. REPRODUCIBLE WORK.<p>An independent portfolio project.<br>No team affiliation.</p><a href="https://github.com/nflverse/nflverse-data/releases/tag/pbp" target="_blank" rel="noopener noreferrer">Explore the data source ↗</a></div>
+  </aside>
+  <main id="main" tabindex="-1">
+    <header class="topbar"><span>FOOTBALL INTELLIGENCE / <b id="view-label">SCOUTING</b></span><span class="topbar-tag"><span class="live-dot"></span> NFL · 2023–2025</span></header>
+    <div id="load-error" class="error-box" role="alert" hidden></div>
+    <div id="loading" class="loading" role="status">Loading the playbook<span class="loading-dots">…</span></div>
+    <section id="scouting" class="view" role="tabpanel" aria-labelledby="tab-scouting" hidden>
+      <div class="hero"><div><p class="eyebrow">01 / SITUATIONAL SCOUTING</p><h1>The game,<br>in context<span>.</span></h1><p class="hero-copy">Explore offensive efficiency by situation.<br>Find the signal. Keep the sample in view.</p></div><div class="field-art" aria-hidden="true"><div class="field-line line-1"></div><div class="field-line line-2"></div><div class="field-line line-3"></div><span class="field-num n20">20</span><span class="field-num n30">30</span><span class="field-num n40">40</span><svg viewBox="0 0 330 180"><path d="M28 147 H140 Q170 147 170 115 V49 H260" fill="none" stroke="#d9ff72" stroke-width="3" stroke-dasharray="8 7"/><path d="m247 36 14 13-14 13" fill="none" stroke="#d9ff72" stroke-width="3"/><circle cx="30" cy="147" r="8" fill="#d9ff72"/><path d="m132 75 14 14m0-14-14 14m84 42 14 14m0-14-14 14" stroke="#f3eddd" stroke-width="3"/></svg><span class="field-badge">SITUATION → SIGNAL</span></div></div>
+      <section class="filter-panel" aria-label="Scouting filters">
+        <div class="filter-heading"><span class="eyebrow">SET THE SITUATION</span><button class="text-button" id="reset-filters">Reset filters ↺</button></div>
+        <div class="filter-grid">
+          <label>Offense<select id="team"></select></label><label>Season<select id="season"></select></label><label>Down<select id="down"><option value="all">All downs</option><option value="1">1st down</option><option value="2">2nd down</option><option value="3">3rd down</option><option value="4">4th down</option></select></label><label>Distance<select id="distance"><option value="all">All distances</option></select></label><label>Field zone<select id="field-zone"><option value="all">All zones</option></select></label><label>Play type<select id="play-type"><option value="all">Pass + run</option><option value="pass">Pass</option><option value="run">Run</option></select></label>
+        </div>
+      </section>
+      <div class="section-heading"><div><p class="eyebrow">YOUR SCOUTING SNAPSHOT</p><h2 id="snapshot-title">Offensive profile</h2></div><button id="export-csv" class="button secondary">Export selection <span aria-hidden="true">↓</span></button></div>
+      <p class="selection-summary" id="selection-summary" aria-live="polite"></p>
+      <div id="sample-warning" class="notice" role="status" hidden></div>
+      <div id="kpis" class="kpi-grid"></div>
+      <div class="chart-grid">
+        <article class="panel leaderboard-panel"><div class="panel-heading"><div><p class="eyebrow">THE COMPARISON</p><h3>Efficiency across the league</h3></div><span class="pill">EPA / PLAY</span></div><p class="chart-note" id="leaderboard-note"></p><div id="leaderboard" class="leaderboard"></div></article>
+        <div class="stack"><article class="panel"><div class="panel-heading"><div><p class="eyebrow">OFFENSIVE IDENTITY</p><h3>Pass or run?</h3></div></div><div id="play-mix"></div><div id="play-type-comparison"></div></article><article class="panel"><div class="panel-heading"><div><p class="eyebrow">DOWN-BY-DOWN</p><h3>Situational efficiency</h3></div></div><p class="chart-note">Selected filters apply, including down.</p><div id="situations"></div></article></div>
+      </div>
+      <article class="panel weekly-panel"><div class="panel-heading"><div><p class="eyebrow">THE SEASON ARC</p><h3 id="weekly-title">Weekly EPA per play</h3></div><span class="pill">TEAM–SEASON CONTEXT</span></div><p class="chart-note">This chart always shows the full selected team and season. Down, distance, field-zone and play-type filters do not apply.</p><div id="weekly-chart"></div></article>
+      <details class="methodology"><summary>What is included in this view? <span aria-hidden="true">＋</span></summary><div><p>Regular-season pass and run plays with a valid down, team, opponent and EPA. Quarterback scrambles, kneels and spikes are excluded. This is a filtered offensive sample, not every team snap.</p><p><b>EPA</b> is expected points added, supplied by nflfastR through nflverse. <b>Success</b> means EPA &gt; 0. Rates are play-weighted. The league reference uses the same selected situation and excludes the selected team. Historical results describe what happened; they do not establish what a coach should call next.</p><p>Field zones: red zone ≤ 20 yards from goal; opponent half &gt; 20 to 50; own half &gt; 50. Short distance includes goal-to-go at zero yards. Individual-play observations are correlated within games; no independent-play confidence interval is presented for EPA.</p><div id="audit-table"></div></div></details>
+    </section>
+    <section id="model" class="view" role="tabpanel" aria-labelledby="tab-model" hidden>
+      <div class="page-intro"><p class="eyebrow">02 / MODEL EVALUATION</p><h1>Show the model.<br>Show its limits<span>.</span></h1><p>A transparent success-probability baseline with a fixed 2025 holdout.</p></div>
+      <div class="notice model-notice"><b>A descriptive model, not a play recommendation.</b> Play type is observed, not randomized. These predictions do not estimate the causal effect of calling a pass or run.</div>
+      <div class="split-timeline"><div><span>01 / SELECT</span><b>2023 → 2024</b><p>Fit on 2023. Select regularization using 2024 Brier score.</p></div><div><span>02 / REFIT</span><b>2023 + 2024</b><p>Refit with the selected penalty. Preprocessing learns from training data only.</p></div><div class="heldout"><span>03 / FIXED HOLDOUT</span><b>2025</b><p>Evaluate once on the full held-out season. No random play split.</p></div></div>
+      <div id="model-kpis" class="kpi-grid"></div>
+      <div class="chart-grid model-grid"><article class="panel"><div class="panel-heading"><div><p class="eyebrow">PROBABILITIES, CHECKED</p><h3>Calibration on unseen games</h3></div><span class="pill">2025 ONLY</span></div><p class="chart-note">Each point is a prediction bin. Whiskers show the 95% Wilson interval for observed success; the dashed line is perfect calibration.</p><div id="calibration-chart"></div><div class="chart-legend"><span><i class="legend-dot"></i> Observed success</span><span><i class="legend-line"></i> Perfect calibration</span></div></article><article class="panel"><div class="panel-heading"><div><p class="eyebrow">EARN THE COMPLEXITY</p><h3>Model vs. constant baseline</h3></div></div><div id="metric-table"></div><div id="bootstrap-result" class="inset-note"></div></article></div>
+      <article class="panel"><div class="panel-heading"><div><p class="eyebrow">THE EVIDENCE</p><h3>Calibration detail</h3></div></div><div id="calibration-table" class="table-scroll"></div></article>
+      <details class="methodology"><summary>Model design and limitations <span aria-hidden="true">＋</span></summary><div><p id="model-method"></p><p id="model-features"></p><p>The constant baseline predicts the 2023–2024 training success rate for every test play. AUC measures discrimination; Brier score and log loss measure probability quality. Lower Brier/log loss and higher AUC are better. A modest AUC can coexist with a small improvement in calibration-oriented scores.</p><p>Player identity, personnel, defensive alignment, play design and injuries are absent. This is a simple benchmark, not a production scouting system. Intervals for calibration are binomial summaries; game-cluster bootstrap uncertainty for the Brier difference is conditional on the fitted model and does not include model-training uncertainty.</p></div></details>
+    </section>
+    <section id="careers" class="view" role="tabpanel" aria-labelledby="tab-careers" hidden>
+      <div class="page-intro"><p class="eyebrow">03 / THE CAREER LANDSCAPE</p><h1>Build for the<br>work teams need<span>.</span></h1><p>Analyst, data science and data engineering leads, with source links and visible review limits.</p></div>
+      <div id="career-error" class="error-box" hidden></div>
+      <div id="career-stats" class="career-stats"></div>
+      <div class="notice"><b>A readable listing is a lead.</b> “Application form verified” means a form was visible when checked. “Listed” means the source was accessible; ongoing acceptance may need confirmation. Blocked and unreviewed boards do not mean zero vacancies.</div>
+      <section class="filter-panel" aria-label="Career filters"><div class="filter-grid career-filters"><label>Search<input id="career-search" type="search" placeholder="Team, title or skill…"></label><label>League<select id="career-league"><option value="all">All leagues</option></select></label><label>Role family<select id="career-family"><option value="all">All role families</option></select></label><label>Evidence status<select id="career-status"><option value="all">All statuses</option></select></label></div></section>
+      <div class="section-heading"><div><p class="eyebrow">SOURCE-LINKED OPPORTUNITIES</p><h2 id="career-result-count" aria-live="polite">Role leads</h2></div><span id="checked-on" class="muted"></span></div><div id="job-list" class="job-list"></div>
+      <article class="panel coverage-panel"><div class="panel-heading"><div><p class="eyebrow">COVERAGE IS PART OF THE RESULT</p><h3>Team career-board review</h3></div></div><p class="chart-note">This inventory defines the research scope. Dynamic or inaccessible boards remain visible. The table follows the selected league and search.</p><div id="coverage-table" class="table-scroll"></div></article>
+    </section>
+    <footer><div><b>SIDELINE LAB</b><span>Independent analysis. Open methods.</span></div><p id="attribution">Data: nflverse · EPA: nflfastR · CC BY 4.0</p><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Data license ↗</a></footer>
+  </main>
+</body>
+</html>

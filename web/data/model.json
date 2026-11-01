@@ -1,0 +1,170 @@
+{
+  "train_seasons": [
+    2023,
+    2024
+  ],
+  "selection_train": 2023,
+  "selection_validation": 2024,
+  "test_season": 2025,
+  "selected_l2": 100.0,
+  "validation_candidates": [
+    {
+      "l2": 1.0,
+      "brier": 0.24077750927688013
+    },
+    {
+      "l2": 10.0,
+      "brier": 0.24077356848922754
+    },
+    {
+      "l2": 100.0,
+      "brier": 0.24075652655382562
+    }
+  ],
+  "model": {
+    "n": 31724,
+    "success_rate": 0.4338671037700164,
+    "brier": 0.24053661142509036,
+    "log_loss": 0.6740838317643105,
+    "auc": 0.5880360992233702
+  },
+  "baseline": {
+    "n": 31724,
+    "success_rate": 0.4338671037700164,
+    "brier": 0.24568278525523066,
+    "log_loss": 0.6844893966669671,
+    "auc": 0.5
+  },
+  "calibration": [
+    {
+      "bin": 0,
+      "n": 11,
+      "predicted": 0.0870818989217289,
+      "observed": 0.2727272727272727,
+      "interval": [
+        0.09745880573921467,
+        0.5656502930102463
+      ]
+    },
+    {
+      "bin": 1,
+      "n": 228,
+      "predicted": 0.1659763497892616,
+      "observed": 0.25,
+      "interval": [
+        0.1982495252023786,
+        0.310035441775075
+      ]
+    },
+    {
+      "bin": 2,
+      "n": 1240,
+      "predicted": 0.2604625146494801,
+      "observed": 0.307258064516129,
+      "interval": [
+        0.28220685712153987,
+        0.3334998373643176
+      ]
+    },
+    {
+      "bin": 3,
+      "n": 10404,
+      "predicted": 0.3729559731969337,
+      "observed": 0.35938100730488276,
+      "interval": [
+        0.35021441439498757,
+        0.36865140692958
+      ]
+    },
+    {
+      "bin": 4,
+      "n": 15600,
+      "predicted": 0.4504770912663014,
+      "observed": 0.4667948717948718,
+      "interval": [
+        0.4589750481694829,
+        0.4746310453453347
+      ]
+    },
+    {
+      "bin": 5,
+      "n": 4115,
+      "predicted": 0.5311770067979313,
+      "observed": 0.5426488456865127,
+      "interval": [
+        0.5273946846561989,
+        0.5578234504621801
+      ]
+    },
+    {
+      "bin": 6,
+      "n": 126,
+      "predicted": 0.61289795452183,
+      "observed": 0.5476190476190477,
+      "interval": [
+        0.46058539099321294,
+        0.6318349118989266
+      ]
+    }
+  ],
+  "brier_difference_game_bootstrap_95": [
+    -0.0059270209749194575,
+    -0.004369739685737536
+  ],
+  "bootstrap_method": "2000 resamples of entire 2025 games, seed 42; model minus baseline Brier (negative favors model). Conditional on the fitted model.",
+  "features": [
+    "down",
+    "ydstogo",
+    "yardline_100",
+    "half_seconds_remaining",
+    "score_differential",
+    "posteam_timeouts_remaining",
+    "defteam_timeouts_remaining",
+    "shotgun",
+    "no_huddle",
+    "goal_to_go",
+    "play_type"
+  ],
+  "coefficients": {
+    "intercept": -0.4776141158122544,
+    "down": -0.1096663685734648,
+    "ydstogo": -0.3286290215867791,
+    "yardline_100": 0.008340636802593084,
+    "half_seconds_remaining": 0.016214981981949872,
+    "score_differential": 0.019904719881649584,
+    "posteam_timeouts_remaining": 0.025213465742495306,
+    "defteam_timeouts_remaining": 0.02454401799900458,
+    "shotgun": -0.004692879544339568,
+    "no_huddle": 0.11223965748799464,
+    "goal_to_go": -0.18449188598223604,
+    "is_pass": 0.2937605201096928
+  },
+  "imputation_medians": [
+    2.0,
+    10.0,
+    54.0,
+    825.0,
+    0.0,
+    3.0,
+    3.0
+  ],
+  "scaling_mean": [
+    1.809509174170944,
+    8.464763192672956,
+    50.29804530227126,
+    841.024064910717,
+    -1.4705258628638165,
+    2.6341703291637213,
+    2.664289885361281
+  ],
+  "scaling_sd": [
+    0.8363557707363073,
+    4.003067833447703,
+    24.04163005262362,
+    543.0650823403101,
+    10.368473354628557,
+    0.7105977182993407,
+    0.6535167893229317
+  ],
+  "method": "L2 logistic regression. Standardization and imputation fitted on training seasons only. L2 chosen on 2024; refit on 2023\u201324; 2025 untouched until evaluation."
+}

@@ -1,10 +1,10 @@
-# Sideline Lab
+# Sports Decision Lab
 
-[Live dashboard](https://sucheta-nandy.github.io/sideline-lab/) · [Methodology](docs/methodology.md) · [Scouting memo](docs/scouting-memo.md) · [Application plan](docs/application-plan.md)
+[Live dashboard](https://sucheta-nandy.github.io/sports-decision-lab/) · [Methodology](docs/methodology.md) · [Scouting memo](docs/scouting-memo.md)
 
 An NFL scouting dashboard built to answer a practical question: **where does an offense create positive expected points, and how much of its success can be explained by situation?**
 
-Python ingests public nflverse play-by-play, validates play keys and field ranges, builds SQL marts, and evaluates a transparent success model on an untouched season. A dependency-free dashboard exposes team tendencies, league comparisons, weekly results, model calibration, and a sourced sports-careers research tracker.
+Python ingests public nflverse play-by-play, validates play keys and field ranges, builds SQL marts, and evaluates a transparent success model on an untouched season. A dependency-free dashboard exposes team tendencies, league comparisons, weekly results, and model calibration.
 
 ## Explore the dashboard
 
@@ -60,18 +60,12 @@ src/verify_snapshot.py   network-free aggregate validation
 sql/marts.sql           additive situation and game marts
 tests/                  filtering, uniqueness, metrics, leakage checks
 web/                    static dashboard and committed aggregates
-docs/                   methodology, scouting memo, hiring evidence
+docs/                   methodology and scouting memo
 index.html              GitHub Pages entry point
 ```
-
-## Hiring research
-
-The careers tab is a **2026-10-30 audit of 185 active teams** across NFL, NBA, WNBA, MLB, NHL, MLS and NWSL. It retains a row for every team and distinguishes readable boards from blocked or incomplete routes. A readable job description or application form is evidence of a listing at review time; it does not guarantee ongoing acceptance. Historical, index-only and conflicting leads are visibly separate. Adjacent finance, marketing and performance roles are labeled for review.
-
-The audit is a manual, sourced snapshot, not an always-current job scraper. It is not a complete verification of every vacancy: dynamic ATS pages prevented some reviews. Original research evidence preserves per-team notes and URLs in [research_evidence.json](docs/research_evidence.json).
 
 ## Data attribution and licensing
 
 Data: [nflverse play-by-play](https://github.com/nflverse/nflverse-data/releases/tag/pbp), distributed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). EPA is provided by the upstream nflfastR pipeline. This project filters and aggregates the data and fits a separate model. [nflverse licensing information](https://github.com/nflverse#licensing).
 
-Code is MIT licensed. The MIT license does not replace the source-data license or grant rights in team names, marks, employer job descriptions or linked sites. No team logos are included. Job requirements are brief paraphrases linked to their original employer sources. This independent portfolio project is unaffiliated with any team or league.
+Code is MIT licensed. The MIT license does not replace the source-data license or grant rights in team names or marks. No team logos are included. This independent portfolio project is unaffiliated with any team or league.

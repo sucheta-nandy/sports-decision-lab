@@ -9,11 +9,10 @@ const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({'&':'&am
 const safeUrl = (value) => { try { const u = new URL(value); return ['https:', 'http:'].includes(u.protocol) ? esc(u.href) : ''; } catch { return ''; } };
 const teams = {ARI:'Arizona Cardinals',ATL:'Atlanta Falcons',BAL:'Baltimore Ravens',BUF:'Buffalo Bills',CAR:'Carolina Panthers',CHI:'Chicago Bears',CIN:'Cincinnati Bengals',CLE:'Cleveland Browns',DAL:'Dallas Cowboys',DEN:'Denver Broncos',DET:'Detroit Lions',GB:'Green Bay Packers',HOU:'Houston Texans',IND:'Indianapolis Colts',JAX:'Jacksonville Jaguars',KC:'Kansas City Chiefs',LA:'Los Angeles Rams',LAC:'Los Angeles Chargers',LV:'Las Vegas Raiders',MIA:'Miami Dolphins',MIN:'Minnesota Vikings',NE:'New England Patriots',NO:'New Orleans Saints',NYG:'New York Giants',NYJ:'New York Jets',PHI:'Philadelphia Eagles',PIT:'Pittsburgh Steelers',SEA:'Seattle Seahawks',SF:'San Francisco 49ers',TB:'Tampa Bay Buccaneers',TEN:'Tennessee Titans',WAS:'Washington Commanders'};
 let scouting;
-let careers;
 let lastExport = [];
 
 function setTab(name, focus = false) {
-  const valid = ['scouting', 'model', 'careers'];
+  const valid = ['scouting', 'model'];
   if (!valid.includes(name)) name = 'scouting';
   document.querySelectorAll('[data-tab]').forEach((button) => {
     const selected = button.dataset.tab === name;
@@ -21,7 +20,7 @@ function setTab(name, focus = false) {
     button.tabIndex = selected ? 0 : -1;
     if (selected && focus) button.focus();
   });
-  valid.forEach((id) => { $(`#${id}`).hidden = id !== name || (!scouting && id !== 'careers'); });
+  valid.forEach((id) => { $(`#${id}`).hidden = id !== name || !scouting; });
   $('#view-label').textContent = name === 'model' ? 'MODEL EVALUATION' : name.toUpperCase();
   history.replaceState(null, '', `#${name}`);
 }
@@ -147,42 +146,7 @@ function exportCsv() {
   const keys=Object.keys(lastExport[0]);
   const csv=[keys.join(','),...lastExport.map((r)=>keys.map((k)=>`"${String(r[k]).replaceAll('"','""')}"`).join(','))].join('\r\n');
   const blob=new Blob([csv],{type:'text/csv;charset=utf-8'});
-  const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=`sideline-lab-${$('#team').value}-${$('#season').value}-selection.csv`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
-}
-
-function family(j) { return j.family || j.role_family || (/engineer/i.test(j.title)?'Data engineer':/scientist/i.test(j.title)?'Data scientist':/analyst/i.test(j.title)?'Analyst':'Adjacent analytics'); }
-function labelStatus(value) { return ({application_form_verified:'Application form visible',listed_detail_accessible:'Accessible listing',listing_status_conflict:'Listing status conflict',verified_accessible_listing:'Accessible listing',verified_application_form:'Application form visible'})[value] || String(value||'Unconfirmed').replaceAll('_',' '); }
-function initializeCareers() {
-  const unique=(values)=>[...new Set(values.filter(Boolean))].sort();
-  $('#career-league').insertAdjacentHTML('beforeend',unique([...careers.jobs,...careers.teams].map((r)=>r.league)).map((x)=>option(x)).join(''));
-  $('#career-family').insertAdjacentHTML('beforeend',unique(careers.jobs.map(family)).map((x)=>option(x)).join(''));
-  $('#career-status').insertAdjacentHTML('beforeend',unique(careers.jobs.map((j)=>j.status)).map((x)=>option(x,labelStatus(x))).join(''));
-  ['career-search','career-league','career-family','career-status'].forEach((id)=>$(`#${id}`).addEventListener(id==='career-search'?'input':'change',renderCareers));
-  const reviewed=careers.teams.filter((t)=>t.status==='reviewed').length;
-  const blocked=careers.teams.filter((t)=>t.status==='blocked').length;
-  const forms=careers.jobs.filter((j)=>/application form (visible|verified)|application_form_verified/i.test(j.status)).length;
-  $('#career-stats').innerHTML=[['Team boards in scope',careers.teams.length],['Reviewed',reviewed],['Blocked / incomplete',careers.teams.length-reviewed],['Visible application forms',forms]].map(([label,n])=>`<div class="career-stat"><b>${number.format(n)}</b><span>${label}</span></div>`).join('');
-  $('#checked-on').textContent=`Checked ${careers.checked_on||'date unavailable'}`;
-  if(careers.scope) { const p=document.createElement('p');p.className='chart-note';p.textContent=typeof careers.scope==='string'?careers.scope:JSON.stringify(careers.scope);$('#coverage-table').before(p); }
-  renderCareers();
-}
-function renderCareers() {
-  const query=$('#career-search').value.trim().toLowerCase();
-  const league=$('#career-league').value;
-  const selectedFamily=$('#career-family').value;
-  const status=$('#career-status').value;
-  const jobs=careers.jobs.filter((j)=>(league==='all'||j.league===league)&&(selectedFamily==='all'||family(j)===selectedFamily)&&(status==='all'||j.status===status)&&(!query||[j.title,j.team,j.league,...(j.skills||[])].join(' ').toLowerCase().includes(query)));
-  $('#career-result-count').textContent=`${number.format(jobs.length)} role ${jobs.length===1?'lead':'leads'}`;
-  $('#job-list').innerHTML=jobs.length?jobs.map((j)=>{
-    const statusText=labelStatus(j.status);
-    const verified=/application form (visible|verified)/i.test(statusText);
-    const conflict=/conflict|historical|unconfirmed/i.test(statusText);
-    const link=safeUrl(j.url);
-    const notes=j.notes||j.evidence_notes||j.evidence||'';
-    return `<article class="job-card"><div class="job-topline"><span class="job-league">${esc(j.league)}</span><span class="job-status${verified?' verified':conflict?' conflict':''}">${verified?'● ':''}${esc(statusText)}</span></div><h3>${esc(j.title)}</h3><p class="job-team">${esc(j.team)} <span class="muted">/ ${esc(family(j))}</span></p><p class="job-location">${esc(j.location||'Location not stated')}${j.salary?`<br>${esc(j.salary)}`:''}</p><div class="skill-tags">${(j.skills||[]).slice(0,8).map((s)=>`<span class="skill-tag">${esc(s)}</span>`).join('')}</div>${j.requirements?`<p class="job-note">${esc(j.requirements)}</p>`:''}${conflict&&notes?`<p class="job-note">${esc(Array.isArray(notes)?notes.join(' '):notes)}</p>`:''}${link?`<a class="job-source" href="${link}" target="_blank" rel="noopener noreferrer">View source listing <span aria-hidden="true">↗</span></a>`:'<span class="job-note">Source link unavailable</span>'}</article>`;
-  }).join(''):'<p class="empty-state">No role leads match these filters. Try a broader search or another league.</p>';
-  const teamRows=careers.teams.filter((t)=>(league==='all'||t.league===league)&&(!query||`${t.team} ${t.league}`.toLowerCase().includes(query)));
-  $('#coverage-table').innerHTML=teamRows.length?`<table class="mini-table coverage-table"><thead><tr><th>Team</th><th>League</th><th>Review status</th><th>Career source</th><th>Review limits</th></tr></thead><tbody>${teamRows.map((t)=>{const link=safeUrl(t.career_url||t.ats_url||t.listing_url);return `<tr><td>${esc(t.team)}</td><td>${esc(t.league)}</td><td><span class="status-badge ${t.status==='reviewed'?'reviewed':t.status==='blocked'?'blocked':'unreviewed'}">${esc(t.status)}</span></td><td>${link?`<a href="${link}" target="_blank" rel="noopener noreferrer">Career board ↗</a>`:'Not located'}</td><td class="coverage-notes">${esc(t.notes||t.evidence_notes||t.review_scope||'See source for current availability.')}</td></tr>`;}).join('')}</tbody></table>`:'<p class="empty-state">No team names match the league and search. Role-family and listing-status filters apply to jobs only.</p>';
+  const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=`sports-decision-lab-${$('#team').value}-${$('#season').value}-selection.csv`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
 }
 
 async function loadJson(path) {
@@ -191,7 +155,7 @@ async function loadJson(path) {
   return response.json();
 }
 async function start() {
-  const results=await Promise.allSettled([loadJson('data/scouting.json'),loadJson('data/careers.json')]);
+  const results=await Promise.allSettled([loadJson('data/scouting.json')]);
   $('#loading').hidden=true;
   if(results[0].status==='fulfilled'){
     scouting=results[0].value;
@@ -200,8 +164,6 @@ async function start() {
     $('#load-error').hidden=false;
     $('#load-error').innerHTML='Could not load the scouting dataset. Start a local server from this web folder with <code>python3 -m http.server 8000</code>, then open <a href="http://localhost:8000">http://localhost:8000</a>. Opening index.html directly does not allow JSON fetches.';
   }
-  if(results[1].status==='fulfilled') { careers=results[1].value;initializeCareers(); }
-  else { $('#career-error').hidden=false;$('#career-error').textContent='Career data could not be loaded. Check that data/careers.json is present and serve this folder over HTTP. The scouting and model views can still be used.'; }
   setTab(location.hash.slice(1));
 }
 start();

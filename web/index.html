@@ -3,25 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Sideline Lab: reproducible NFL situational scouting, honest model evaluation, and a sourced sports analytics career tracker.">
+  <meta name="description" content="Sports Decision Lab: reproducible NFL situational scouting and honest model evaluation.">
   <meta name="color-scheme" content="light">
   <meta name="theme-color" content="#111111">
-  <title>Sideline Lab · Sports analytics</title>
+  <title>Sports Decision Lab · Sports analytics</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,500;0,600;0,700;0,800;1,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=20261101b">
-  <script src="app.js" defer></script>
+  <script src="app.js?v=20261101c" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to dashboard</a>
   <aside class="sidebar">
-    <a class="brand" href="#scouting" aria-label="Sideline Lab home"><span class="brand-mark">S<span>L</span></span><span>SIDELINE<br><b>LAB</b></span></a>
+    <a class="brand" href="#scouting" aria-label="Sports Decision Lab home"><span class="brand-mark">S<span>D</span></span><span class="brand-name">SPORTS<br><b>DECISION LAB</b></span></a>
     <p class="sidebar-label">THE ANALYTICS WORKSPACE</p>
     <nav class="tablist" role="tablist" aria-label="Dashboard views">
       <button id="tab-scouting" role="tab" aria-selected="true" aria-controls="scouting" tabindex="0" data-tab="scouting"><span aria-hidden="true">◫</span> Scouting <span class="nav-arrow" aria-hidden="true">↗</span></button>
       <button id="tab-model" role="tab" aria-selected="false" aria-controls="model" tabindex="-1" data-tab="model"><span aria-hidden="true">⌁</span> Model evaluation</button>
-      <button id="tab-careers" role="tab" aria-selected="false" aria-controls="careers" tabindex="-1" data-tab="careers"><span aria-hidden="true">▤</span> Careers</button>
     </nav>
     <div class="sidebar-bottom"><span class="live-dot"></span> PUBLIC DATA. REPRODUCIBLE WORK.<p>An independent portfolio project.<br>No team affiliation.</p><a href="https://github.com/nflverse/nflverse-data/releases/tag/pbp" target="_blank" rel="noopener noreferrer">Explore the data source ↗</a></div>
   </aside>
@@ -57,16 +56,7 @@
       <article class="panel"><div class="panel-heading"><div><p class="eyebrow">THE EVIDENCE</p><h3>Calibration detail</h3></div></div><div id="calibration-table" class="table-scroll"></div></article>
       <details class="methodology"><summary>Model design and limitations <span aria-hidden="true">＋</span></summary><div><p id="model-method"></p><p id="model-features"></p><p>The constant baseline predicts the 2023–2024 training success rate for every test play. AUC measures discrimination; Brier score and log loss measure probability quality. Lower Brier/log loss and higher AUC are better. A modest AUC can coexist with a small improvement in calibration-oriented scores.</p><p>Player identity, personnel, defensive alignment, play design and injuries are absent. This is a simple benchmark, not a production scouting system. Intervals for calibration are binomial summaries; game-cluster bootstrap uncertainty for the Brier difference is conditional on the fitted model and does not include model-training uncertainty.</p></div></details>
     </section>
-    <section id="careers" class="view" role="tabpanel" aria-labelledby="tab-careers" hidden>
-      <div class="page-intro"><p class="eyebrow">03 / THE CAREER LANDSCAPE</p><h1>Build for the<br>work teams need<span>.</span></h1><p>Analyst, data science and data engineering leads, with source links and visible review limits.</p></div>
-      <div id="career-error" class="error-box" hidden></div>
-      <div id="career-stats" class="career-stats"></div>
-      <div class="notice"><b>A readable listing is a lead.</b> “Application form verified” means a form was visible when checked. “Listed” means the source was accessible; ongoing acceptance may need confirmation. Blocked and unreviewed boards do not mean zero vacancies.</div>
-      <section class="filter-panel" aria-label="Career filters"><div class="filter-grid career-filters"><label>Search<input id="career-search" type="search" placeholder="Team, title or skill…"></label><label>League<select id="career-league"><option value="all">All leagues</option></select></label><label>Role family<select id="career-family"><option value="all">All role families</option></select></label><label>Evidence status<select id="career-status"><option value="all">All statuses</option></select></label></div></section>
-      <div class="section-heading"><div><p class="eyebrow">SOURCE-LINKED OPPORTUNITIES</p><h2 id="career-result-count" aria-live="polite">Role leads</h2></div><span id="checked-on" class="muted"></span></div><div id="job-list" class="job-list"></div>
-      <article class="panel coverage-panel"><div class="panel-heading"><div><p class="eyebrow">COVERAGE IS PART OF THE RESULT</p><h3>Team career-board review</h3></div></div><p class="chart-note">This inventory defines the research scope. Dynamic or inaccessible boards remain visible. The table follows the selected league and search.</p><div id="coverage-table" class="table-scroll"></div></article>
-    </section>
-    <footer><div><b>SIDELINE LAB</b><span>Independent analysis. Open methods.</span></div><p id="attribution">Data: nflverse · EPA: nflfastR · CC BY 4.0</p><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Data license ↗</a></footer>
+    <footer><div><b>SPORTS DECISION LAB</b><span>Independent analysis. Open methods.</span></div><p id="attribution">Data: nflverse · EPA: nflfastR · CC BY 4.0</p><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Data license ↗</a></footer>
   </main>
 </body>
 </html>

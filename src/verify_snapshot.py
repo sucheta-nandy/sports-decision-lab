@@ -15,9 +15,4 @@ for c in d['cells']:
     assert c['n']>0 and 0<=c['successes']<=c['n']
 assert d['model']['test_season']>max(d['model']['train_seasons'])
 assert d['model']['model']['n']==next(a['eligible_rows'] for a in d['audit'] if a['season']==2025)
-careers=root/'careers.json'
-if careers.exists():
-    c=json.loads(careers.read_text())
-    assert len({(t['league'],t['team']) for t in c['teams']})==len(c['teams'])
-    assert all(j['url'].startswith('https://') for j in c['jobs'])
 print(f"Verified {d['total_plays']:,} eligible plays and aggregate checksum")

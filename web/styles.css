@@ -16,6 +16,8 @@ h3{letter-spacing:0;font-weight:700}
 .kpi-number,.career-stat b,.split-timeline b{font-weight:700;font-variant-numeric:tabular-nums}
 .sidebar{background:#111;border-right:0;border-top:5px solid var(--red);box-shadow:4px 0 16px #0002}
 .brand{color:#fff;font-weight:800}
+.brand-name{font-size:14px;letter-spacing:1.5px}
+.brand-name b{font-size:10px;letter-spacing:1.6px}
 .brand-mark{background:var(--red);color:#fff;border-radius:0;transform:none}
 .sidebar-label{color:#8b8b8b}
 .tablist button{color:#b9b9b9;border-radius:2px}
